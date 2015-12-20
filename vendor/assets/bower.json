@@ -1,0 +1,18 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "angular": "latest",
+    "angular-animate": "latest",
+    "angular-translate": "latest",
+    "angular-translate-loader-url": "latest",
+    "angular-translate-storage-cookie": "latest",
+    "angular-translate-storage-local": "latest",
+    "angular-bootstrap": "latest",
+    "bootstrap-sass": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "underscore": "latest",
+    "jquery": "2.1.1",
+    "jquery-ui": "1.11.1"
+  }
+}

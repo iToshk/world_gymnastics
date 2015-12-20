@@ -1,0 +1,136 @@
+nav.navbar.navbar-inverse role="navigation"
+  .container-fluid
+    /! Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="/" Home
+    /! Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li
+          a href="#"  About
+        li.dropdown
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            | Artistic Events
+            span.caret
+          ul.dropdown-menu role="menu"
+            li.active
+              a href="#" Men's Floor
+            li
+              a href="#" Pommel Hourse
+            li
+              a href="#" Rings
+            li
+              a href="#" Men's Vault
+            li
+              a href="#" Pararel Bars
+            li
+              a href="#" Horizontal Bar
+            li.divider
+            li
+              a href="#" Women's Floor
+            li
+              a href="#" Women's Vault
+            li
+              a href="#" Balance Beam
+            li
+              a href="#" Uneven Bar
+
+#sidebar-menu.content.col-md-2
+  ul.sidebar-menu.nav.nav-stacked.affix
+    | Men's Floor
+    li
+      a ng-click="scrollSmoothTo('contents_top')" style="cursor: pointer"
+        | Top
+    li
+      a ng-click="scrollSmoothTo('p1')" style="cursor: pointer"
+        | EGR1
+    li
+      a ng-click="scrollSmoothTo('p2')" style="cursor: pointer"
+        | EGR2
+    li
+      a ng-click="scrollSmoothTo('p3')" style="cursor: pointer"
+        | EGR3
+    li
+      a ng-click="scrollSmoothTo('p4')" style="cursor: pointer"
+        | EGR4
+
+
+.content.col-md-10
+  h2 Artistic Gymnastics Code of Points
+  p
+  /fa.fa.fa-spinner.fa-pulse
+  .ul
+    h3 ng-bind="mens_floor"
+
+    #p1.li
+      h4 ng-bind="group_1"
+
+  table.table.table-bordered.table-hover.table-condensed.table-striped
+    thead
+      tr
+        th width="16%" ng-bind="number_of_skill"
+        th width="16%" ng-bind="dificulty_of_skill"
+        th width="68%" ng-bind="name_of_skill"
+
+    tbody
+      .row.container.col-md-12
+        tr ng-repeat="en_mens_floor_egr_1_skill in en_mens_floor_egr_1_skills"
+          td width="16%" ng-bind="'I-' + en_mens_floor_egr_1_skill.num"
+          td width="16%" ng-bind="en_mens_floor_egr_1_skill.dificulty"
+          td width="68%" ng-bind="en_mens_floor_egr_1_skill.name"
+
+  #p2
+    h4 ng-bind="group_2"
+
+  table.table.table-bordered.table-hover.table-condensed.table-striped
+    thead
+      tr
+        th width="16%" ng-bind="number_of_skill"
+        th width="16%" ng-bind="dificulty_of_skill"
+        th width="68%" ng-bind="name_of_skill"
+
+    tbody
+      .row.content.col-md-12
+        tr ng-repeat="en_mens_floor_egr_2_skill in en_mens_floor_egr_2_skills"
+          td width="16%" ng-bind="'I-' + en_mens_floor_egr_2_skill.num"
+          td width="16%" ng-bind="en_mens_floor_egr_2_skill.dificulty"
+          td width="68%" ng-bind="en_mens_floor_egr_2_skill.name"
+
+  #p3
+    h4 ng-bind="group_3"
+
+  table.table.table-bordered.table-hover.table-condensed.table-striped
+    thead
+      tr
+        th width="16%" ng-bind="number_of_skill"
+        th width="16%" ng-bind="dificulty_of_skill"
+        th width="68%" ng-bind="name_of_skill"
+
+    tbody
+      .row.content.col-md-12
+        tr ng-repeat="en_mens_floor_egr_3_skill in en_mens_floor_egr_3_skills"
+          td width="16%" ng-bind="'I-' + en_mens_floor_egr_3_skill.num"
+          td width="16%" ng-bind="en_mens_floor_egr_3_skill.dificulty"
+          td width="68%" ng-bind="en_mens_floor_egr_3_skill.name"
+
+  #p4
+    h4 ng-bind="group_4"
+
+  table.table.table-bordered.table-hover.table-condensed.table-striped
+    thead
+      tr
+        th width="16%" ng-bind="number_of_skill"
+        th width="16%" ng-bind="dificulty_of_skill"
+        th width="68%" ng-bind="name_of_skill"
+
+    tbody
+      .row.content.col-md-12
+        tr ng-repeat="en_mens_floor_egr_4_skill in en_mens_floor_egr_4_skills"
+          td width="16%" ng-bind="'I-' + en_mens_floor_egr_4_skill.num"
+          td width="16%" ng-bind="en_mens_floor_egr_4_skill.dificulty"
+          td width="68%" ng-bind="en_mens_floor_egr_4_skill.name"
