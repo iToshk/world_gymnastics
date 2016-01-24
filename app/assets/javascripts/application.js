@@ -17,3 +17,43 @@
 //= require bootstrap-sass
 //= require underscore
 //= require_tree .
+
+$scope.scrollSmoothTo = function(elementOrName){
+  var element = {'true':$('*[name='+elementOrName+'],'+
+                          '#'+elementOrName).eq(0),
+                 'false':elementOrName}[typeof elementOrName === 'string'];
+  if(!element){
+    return;
+  }
+  if(!element.offset){
+    element = $(element);
+  }
+  if(!element.offset){
+    return;
+  }
+  var top = Math.max(0, element.offset().top - ($(window).height()/8));
+  $('html,body').
+  animate(
+    {'scrollTop': top},
+    'slow'
+  );
+};
+
+(function() {
+    var app = angular.module("app", [
+        "ngAnimate",
+        "ui.bootstrap",
+    ]);
+
+    angular.module("app").controller("ApplicationController", function(
+        $scope)
+        {
+          $scope.mens_floor = "Men's Floor";
+        }
+    )
+})
+
+
+
+
+

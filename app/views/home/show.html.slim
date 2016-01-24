@@ -8,6 +8,47 @@ html
     = javascript_include_tag "application", controller_name: "application.js"
     link href="favicon.ico?v=test" rel="shortcut icon"
   body ng-app="app" ng-controller="ApplicationController"
-    #contents_top
-      p World Gymnastics
+    #header
+      nav.navbar.navbar-inverse role="navigation"
+        .container-fluid
+          /! Brand and toggle get grouped for better mobile display
+          .navbar-header
+            button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand href="/" World Gymnastics
+          /! Collect the nav links, forms, and other content for toggling
+          #bs-example-navbar-collapse-1.collapse.navbar-collapse
+            ul.nav.navbar-nav
+              li
+                a href="#"  About
+              li.dropdown
+                a.dropdown-toggle data-toggle="dropdown" href="#"
+                  | Artistic Events
+                  span.caret
+                ul.dropdown-menu role="menu"
+                  li.active
+                    a href="/mens_floor" Men's Floor
+                  li
+                    a href="#" Pommel Hourse
+                  li
+                    a href="#" Rings
+                  li
+                    a href="#" Men's Vault
+                  li
+                    a href="#" Pararel Bars
+                  li
+                    a href="#" Horizontal Bar
+                  li.divider
+                  li
+                    a href="#" Women's Floor
+                  li
+                    a href="#" Women's Vault
+                  li
+                    a href="#" Balance Beam
+                  li
+                    a href="#" Uneven Bar
+
       = link_to "Men's Floor", '/mens_floor'
