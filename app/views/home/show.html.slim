@@ -7,6 +7,7 @@ html
     = stylesheet_link_tag "application", media: "all"
     = javascript_include_tag "application", controller_name: "application.js"
     link href="favicon.ico?v=test" rel="shortcut icon"
+    = render partial: "google_analytics" if Rails.env.production?
   body ng-app="app" ng-controller="ApplicationController"
     #header
       nav.navbar.navbar-inverse role="navigation"
