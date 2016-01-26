@@ -18,7 +18,6 @@
 //= require angular-ui-router
 //= require angular-animate
 //= require underscore
-//= require bootstrap
 //= require bootstrap-sass
 //= require_tree .
 
