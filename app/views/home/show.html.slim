@@ -10,50 +10,21 @@ html
     = render partial: "google_analytics" if Rails.env.production?
 
   body ng-app="app" ng-controller="ApplicationController"
-    #header
-      nav.navbar.navbar-inverse role="navigation"
-        .container-fluid
-          /! Brand and toggle get grouped for better mobile display
-          .navbar-header
-            button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
-              span.sr-only Toggle navigation
-              span.icon-bar
-              span.icon-bar
-              span.icon-bar
-            a.navbar-brand href="/" World Gymnastics
-          /! Collect the nav links, forms, and other content for toggling
-          #bs-example-navbar-collapse-1.collapse.navbar-collapse
-            ul.nav.navbar-nav
-              li
-                a href="#"  About This Page
-              li.dropdown
-                a.dropdown-toggle data-toggle="dropdown" href="#"
-                  | 種目別難度表
-                  span.caret
-                ul.dropdown-menu role="menu"
-                  li
-                    a href="/mens_floor" 床（男子）
-                  li
-                    a href="#" 鞍馬
-                  li
-                    a href="#" 吊り輪
-                  li
-                    a href="#" 跳馬（男子）
-                  li
-                    a href="#" 平行棒
-                  li
-                    a href="#" 鉄棒
-                  li.divider
-                  li
-                    a href="#" 跳馬（女子）
-                  li
-                    a href="#" 段違い平行棒
-                  li
-                    a href="#" 平均台
-                  li
-                    a href="#" 床（女子）
-      p
-        = render partial: "adsense_top"
-      p
-        | 作成中…（Work in progress...）
-      /= link_to "Men's Floor", '/mens_floor'
+    = render partial: "navbar_header"
+
+    .content
+      .row.head.col-xs-12
+        p.text-center
+          = render partial: "adsense_top"
+        p.text-center
+          | 作成中…（Work in progress...）
+        .left_sidebar.col-xs-3
+          = render partial: "twitter"
+          /= link_to "Men's Floor", '/mens_floor'
+        .middle.col-xs-8
+
+
+        .right_sidebar.col-xs-3
+
+
+

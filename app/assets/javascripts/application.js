@@ -33,7 +33,58 @@ var app = angular.module("app", [
 app.controller("ApplicationController", ['$scope', function(
     $scope)
 {
-    $scope.mens_floor = "床（男子）";
+    $scope.number_of_skill = "技番号"
+    $scope.dificulty_of_skill = "難度"
+    $scope.name_of_skill = "技名"
+    $scope.sample_link = "参考リンク"
+
+    $scope.mens_floor_group_1_skills = [
+        { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "倒立からおろして開脚前挙（脚前挙）支持（２秒）", sample_link: "###" },
+        { number_of_skill: "2", dificulty_of_skill: "B", name_of_skill: "脚上挙支持（２秒）", sample_link: "###" },
+        { number_of_skill: "3", dificulty_of_skill: "C", name_of_skill: "脚上挙支持（腰が水平、２秒）（マンナ）", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" }
+    ];
 
     $scope.scrollSmoothTo = function(elementOrName){
         var element = {'true':$('*[name='+elementOrName+'],'+
