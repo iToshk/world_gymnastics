@@ -1,0 +1,2 @@
+class RingsController < ApplicationController
+end

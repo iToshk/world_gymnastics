@@ -1,0 +1,2 @@
+class WomensFloorController < ApplicationController
+end

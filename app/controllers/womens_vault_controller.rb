@@ -1,0 +1,2 @@
+class WomensVaultController < ApplicationController
+end

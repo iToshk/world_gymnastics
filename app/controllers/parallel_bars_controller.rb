@@ -1,0 +1,2 @@
+class ParallelBarsController < ApplicationController
+end

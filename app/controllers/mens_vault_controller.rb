@@ -1,0 +1,2 @@
+class MensVaultController < ApplicationController
+end

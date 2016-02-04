@@ -6,6 +6,15 @@ Rails.application.routes.draw do
   root 'home#show'
   match "home" => "home#show", via: :get
   match "mens_floor" => "mens_floor#show", via: :get
+  match "pommel_horse" => "pommel_horse#show", via: :get
+  match "rings" => "rings#show", via: :get
+  match "mens_vault" => "mens_vault#show", via: :get
+  match "parallel_bars" => "parallel_bars#show", via: :get
+  match "horizontal_bar" => "horizontal_bar#show", via: :get
+  match "womens_vault" => "womens_vault#show", via: :get
+  match "uneven_bar" => "uneven_bar#show", via: :get
+  match "balance_beam" => "balance_beam#show", via: :get
+  match "womens_floor" => "womens_floor#show", via: :get
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

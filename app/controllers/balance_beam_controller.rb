@@ -1,0 +1,2 @@
+class BalanceBeamController < ApplicationController
+end

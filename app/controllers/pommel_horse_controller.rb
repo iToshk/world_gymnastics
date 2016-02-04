@@ -1,0 +1,2 @@
+class PommelHorseController < ApplicationController
+end

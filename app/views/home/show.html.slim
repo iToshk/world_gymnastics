@@ -10,7 +10,7 @@ html
     = render partial: "google_analytics" if Rails.env.production?
 
   body ng-app="app" ng-controller="ApplicationController"
-    = render partial: "navbar_header"
+    = render partial: "shared/navbar_header"
 
     .content
       .row.head.col-xs-12
