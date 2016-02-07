@@ -2,6 +2,7 @@
 
 #sidebar-menu.content.col-md-2
   ul.sidebar-menu.nav.nav-stacked.affix
+    p ng-bind="womens_vault"
     li
       a ng-click="scrollSmoothTo('contents_top')" style="cursor: pointer"
         | Top
@@ -20,16 +21,14 @@
 
 
 .content.col-md-10
-  h2 器械体操 難度表
+  h2 ng-bind="code_of_points_2013_to_2016"
   p
   /fa.fa.fa-spinner.fa-pulse
   .ul
-    h3
-      | 床（男子）
+    h3 ng-bind="womens_vault"
 
     #p1.li
-      h4
-        | グループI： 跳躍技以外の技
+      h4 ng-bind="womens_vault_group_1"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
@@ -48,8 +47,7 @@
               td width="16%" ng-bind="mens_floor_group_1_skill.sample_link"
 
     #p2.li
-      h4
-        | グループII： 前方系の跳躍技
+      h4 ng-bind="womens_vault_group_2"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
@@ -68,8 +66,7 @@
               td width="16%" ng-bind="mens_floor_group_2_skill.sample_link"
 
     #p3.li
-      h4
-        | グループIII： 後方系の跳躍技
+      h4 ng-bind="womens_vault_group_3"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
@@ -88,8 +85,7 @@
               td width="16%" ng-bind="mens_floor_group_3_skill.sample_link"
 
     #p4.li
-      h4
-        | グループIV : 側方系、とびひねり宙返り系の跳躍技
+      h4 ng-bind="womens_vault_group_4"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
