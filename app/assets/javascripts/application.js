@@ -255,7 +255,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "59", dificulty_of_skill: "E", name_of_skill: "側方開脚２回宙返り３/４ひねり（ロウ・ユン）", sample_link: "###" }
     ];
 
-    $scope.mens_pommel_horse_group_1_skills = [
+    $scope.pommel_horse_group_1_skills = [
         { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "正交差", sample_link: "###" },
         { number_of_skill: "4", dificulty_of_skill: "D", name_of_skill: "正交差１/４ひねり一把手上倒立経過、下ろして開脚支持（リーニン）", sample_link: "###" },
         { number_of_skill: "7", dificulty_of_skill: "A", name_of_skill: "正交差ひねり正交差入れ", sample_link: "###" },
@@ -278,7 +278,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "46", dificulty_of_skill: "D", name_of_skill: "（開脚）支持から後ろ振り抜き倒立１回ひねり、振り下して閉脚（開脚）旋回", sample_link: "###" }
     ];
 
-    $scope.mens_pommel_horse_group_2_skills = [
+    $scope.pommel_horse_group_2_skills = [
         { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "横向き旋回\n横向き開脚旋回（トーマス）", sample_link: "###" },
         { number_of_skill: "2", dificulty_of_skill: "B", name_of_skill: "一把手上横向き旋回", sample_link: "###" },
         { number_of_skill: "8", dificulty_of_skill: "B", name_of_skill: "両把手を挟んで横向き旋回\nあん部馬背横向き旋回", sample_link: "###" },
@@ -302,7 +302,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "54", dificulty_of_skill: "G", name_of_skill: "下向き逆移動（orDSA）倒立３/３部分移動１回ひねり、下ろして開脚旋回（ブスナリ）", sample_link: "###" }
     ];
 
-    $scope.mens_pommel_horse_group_3_skills = [
+    $scope.pommel_horse_group_3_skills = [
         { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "正面横移動（１/４転向を伴っても）", sample_link: "###" },
         { number_of_skill: "2", dificulty_of_skill: "B", name_of_skill: "正面横移動連続（馬端～馬端）", sample_link: "###" },
         { number_of_skill: "3", dificulty_of_skill: "C", name_of_skill: "正面横移動連続（馬端～馬端：あん部馬背着手", sample_link: "###" },
