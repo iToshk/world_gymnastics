@@ -334,7 +334,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "58", dificulty_of_skill: "D", name_of_skill: "縦向き後ろ移動（３/３：あん部馬背着手）（シバド）", sample_link: "###" }
     ];
 
-    $scope.mens_pommel_horse_group_4_skills = [
+    $scope.pommel_horse_group_4_skills = [
         { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "上向き転向", sample_link: "###" },
         { number_of_skill: "2", dificulty_of_skill: "B", name_of_skill: "把手上上向き転向", sample_link: "###" },
         { number_of_skill: "3", dificulty_of_skill: "C", name_of_skill: "馬端横向き支持から上向き転向、下向き逆移動（ウルジカ）", sample_link: "###" },
