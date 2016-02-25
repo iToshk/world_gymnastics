@@ -331,7 +331,27 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "55", dificulty_of_skill: "A", name_of_skill: "縦向き後ろ移動（１/３部分）", sample_link: "###" },
         { number_of_skill: "56", dificulty_of_skill: "B", name_of_skill: "縦向き後ろ移動（２/３or１/２部分）", sample_link: "###" },
         { number_of_skill: "57", dificulty_of_skill: "C", name_of_skill: "縦向き後ろ移動（３/３：馬端ー把手ー把手ー馬端）", sample_link: "###" },
-        { number_of_skill: "58", dificulty_of_skill: "D", name_of_skill: "縦向き後ろ移動（３/３：あん部馬背着手）（シバド）", sample_link: "###" },
+        { number_of_skill: "58", dificulty_of_skill: "D", name_of_skill: "縦向き後ろ移動（３/３：あん部馬背着手）（シバド）", sample_link: "###" }
+    ];
+
+    $scope.mens_pommel_horse_group_4_skills = [
+        { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "上向き転向", sample_link: "###" },
+        { number_of_skill: "2", dificulty_of_skill: "B", name_of_skill: "把手上上向き転向", sample_link: "###" },
+        { number_of_skill: "3", dificulty_of_skill: "C", name_of_skill: "馬端横向き支持から上向き転向、下向き逆移動（ウルジカ）", sample_link: "###" },
+        { number_of_skill: "4", dificulty_of_skill: "D", name_of_skill: "馬端横向き支持から上向き転向、下向き逆移動、上向き転向（モギルニー）", sample_link: "###" },
+        { number_of_skill: "8", dificulty_of_skill: "B", name_of_skill: "シュテクリA（DSA）", sample_link: "###" },
+        { number_of_skill: "9", dificulty_of_skill: "C", name_of_skill: "一腕上上向き270°転向／※縦向き支持から横向き支持＝B（ショーンの捌き）", sample_link: "###" },
+        { number_of_skill: "10", dificulty_of_skill: "D", name_of_skill: "一腕上上向き全転向（ショーン）", sample_link: "###" },
+        { number_of_skill: "14", dificulty_of_skill: "B", name_of_skill: "シュテクリB（DSB）", sample_link: "###" },
+        { number_of_skill: "16", dificulty_of_skill: "D", name_of_skill: "馬端横向き支持から下向き逆移動、上向き転向、下向き逆移動（ベレンキ）", sample_link: "###" },
+        { number_of_skill: "20", dificulty_of_skill: "B", name_of_skill: "トラムロー／直接トラムロー", sample_link: "###" },
+        { number_of_skill: "26", dificulty_of_skill: "B", name_of_skill: "下向き逆移動", sample_link: "###" },
+        { number_of_skill: "28", dificulty_of_skill: "D", name_of_skill: "馬端外向き支持から下向き逆移動で反対の馬端外向き支持", sample_link: "###" },
+        { number_of_skill: "29", dificulty_of_skill: "E", name_of_skill: "一腕上下向き全転向（ベズゴ）", sample_link: "###" },
+        { number_of_skill: "31", dificulty_of_skill: "A", name_of_skill: "下向き正転向移動", sample_link: "###" },
+        { number_of_skill: "33", dificulty_of_skill: "C", name_of_skill: "下向き正転向移動（把手間に着手なしで逆馬端へ）（横向き～横向き支持、横向き～縦向き支持、縦向き～横向き支持）", sample_link: "###" },
+        { number_of_skill: "34", dificulty_of_skill: "D", name_of_skill: "下向き正転向移動（馬端～馬端、把手または把手間の着手なしで）（横向き～横向き支持、横向き～縦向き支持、縦向き～横向き支持）（トンフェイ）", sample_link: "###" },
+        { number_of_skill: "", dificulty_of_skill: "", name_of_skill: "", sample_link: "###" },
     ];
 
     $scope.scrollSmoothTo = function(elementOrName){
