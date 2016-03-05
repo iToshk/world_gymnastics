@@ -555,6 +555,136 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "48", dificulty_of_skill: "F", name_of_skill: "後方伸身２回宙返り２回(3/2)ひねり下り", sample_link: "###" }
     ];
 
+    $scope.mens_vault_group_1_skills = [
+        { number_of_skill: "1", dificulty_of_skill: "2.0", name_of_skill: "前転とび", sample_link: "###" },
+        { number_of_skill: "2", dificulty_of_skill: "2.4", name_of_skill: "前転とびひねり", sample_link: "###" },
+        { number_of_skill: "3", dificulty_of_skill: "2.8", name_of_skill: "前転とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "4", dificulty_of_skill: "3.2", name_of_skill: "前転とび3/2ひねり", sample_link: "###" },
+        { number_of_skill: "5", dificulty_of_skill: "3.6", name_of_skill: "前転とび２回ひねり", sample_link: "###" },
+        { number_of_skill: "6", dificulty_of_skill: "3.0", name_of_skill: "ヤマシタとび", sample_link: "###" },
+        { number_of_skill: "7", dificulty_of_skill: "3.4", name_of_skill: "ヤマシタとびひねり", sample_link: "###" },
+        { number_of_skill: "8", dificulty_of_skill: "3.8", name_of_skill: "ヤマシタとび１回ひねり", sample_link: "###" },
+        { number_of_skill: "9", dificulty_of_skill: "4.2", name_of_skill: "ヤマシタとび3/2ひねり", sample_link: "###" },
+        { number_of_skill: "10", dificulty_of_skill: "4.6", name_of_skill: "ヤマシタとび２回ひねり", sample_link: "###" },
+        { number_of_skill: "11", dificulty_of_skill: "2.8", name_of_skill: "前転とび前方かかえ込み宙返り", sample_link: "###" },
+        { number_of_skill: "12", dificulty_of_skill: "3.2", name_of_skill: "前転とび前方かかえ込み宙返りひねり（クエルボとび）", sample_link: "###" },
+        { number_of_skill: "13", dificulty_of_skill: "3.6", name_of_skill: "前転とび前方かかえ込み宙返り１回ひねり（クエルボとびひねり）", sample_link: "###" },
+        { number_of_skill: "14", dificulty_of_skill: "4.0", name_of_skill: "前転とび前方かかえ込み宙返り3/2ひねり（クエルボとび１回ひねり）", sample_link: "###" },
+        { number_of_skill: "15", dificulty_of_skill: "4.4", name_of_skill: "前転とび前方かかえ込み宙返り２回ひねり（クエルボとび3/2ひねり）", sample_link: "###" },
+        { number_of_skill: "16", dificulty_of_skill: "3.2", name_of_skill: "前転とび前方屈身宙返り", sample_link: "###" },
+        { number_of_skill: "17", dificulty_of_skill: "3.6", name_of_skill: "前転とび前方屈身宙返りひねり（屈身クエルボとび）", sample_link: "###" },
+        { number_of_skill: "18", dificulty_of_skill: "4.0", name_of_skill: "前転とび前方屈身宙返り１回ひねり（屈身クエルボとびひねり）", sample_link: "###" },
+        { number_of_skill: "19", dificulty_of_skill: "4.4", name_of_skill: "前転とび前方屈身宙返り3/2ひねり（屈身クエルボとび１回ひねり）", sample_link: "###" },
+        { number_of_skill: "20", dificulty_of_skill: "4.4", name_of_skill: "前転とび１回ひねり前方かかえ込み宙返り（ベーレント）", sample_link: "###" },
+        { number_of_skill: "21", dificulty_of_skill: "4.8", name_of_skill: "前転とび１回ひねり前方屈身宙返り（レーム）", sample_link: "###" },
+        { number_of_skill: "22", dificulty_of_skill: "4.0", name_of_skill: "前転とび前方伸身宙返り", sample_link: "###" },
+        { number_of_skill: "23", dificulty_of_skill: "4.4", name_of_skill: "前転とび前方伸身宙返りひねり（伸身クエルボとび）", sample_link: "###" },
+        { number_of_skill: "24", dificulty_of_skill: "4.8", name_of_skill: "前転とび前方伸身宙返り１回ひねり（伸身クエルボとびひねり", sample_link: "###" },
+        { number_of_skill: "25", dificulty_of_skill: "5.2", name_of_skill: "前転とび前方伸身宙返り3/2ひねり（伸身クエルボとび１回ひねり：ロー・ユン）", sample_link: "###" },
+        { number_of_skill: "26", dificulty_of_skill: "5.6", name_of_skill: "前転とび前方伸身宙返り２回ひねり（伸身クエルボとび3/2ひねり", sample_link: "###" },
+        { number_of_skill: "27", dificulty_of_skill: "6.0", name_of_skill: "前転とび前方伸身宙返り5/2ひねり（ヨー２）", sample_link: "###" },
+        { number_of_skill: "28", dificulty_of_skill: "5.6", name_of_skill: "前転とび前方かかえ込み２回宙返り（ローチェ）", sample_link: "###" },
+        { number_of_skill: "29", dificulty_of_skill: "6.0", name_of_skill: "前転とび前方かかえ込み２回宙返りひねり（ドラグレスク）", sample_link: "###" },
+        { number_of_skill: "30", dificulty_of_skill: "6.0", name_of_skill: "前転とびひねり後方かかえ込み２回宙返り（ジマーマン）", sample_link: "###" },
+        { number_of_skill: "31", dificulty_of_skill: "6.0", name_of_skill: "前転とび前方屈身２回宙返り（ブラニク）", sample_link: "###" },
+        { number_of_skill: "32", dificulty_of_skill: "6.4", name_of_skill: "前転とび前方屈身2回宙返りひねり", sample_link: "###" },
+        { number_of_skill: "33", dificulty_of_skill: "6.4", name_of_skill: "前転とび前方伸身宙返り3回ひねり（ヤンハクソン）", sample_link: "###" }
+    ];
+
+    $scope.mens_vault_group_2_skills = [
+        { number_of_skill: "34", dificulty_of_skill: "2.0", name_of_skill: "側転とび1/4ひねり", sample_link: "###" },
+        { number_of_skill: "35", dificulty_of_skill: "2.4", name_of_skill: "側転とび3/4ひねり", sample_link: "###" },
+        { number_of_skill: "36", dificulty_of_skill: "2.8", name_of_skill: "側転とび5/4ひねり", sample_link: "###" }
+        ,
+        { number_of_skill: "37", dificulty_of_skill: "2.8", name_of_skill: "側転とび1/4ひねり前方かかえ込み宙返り", sample_link: "###" },
+        { number_of_skill: "38", dificulty_of_skill: "3.2", name_of_skill: "側転とび1/4ひねり前方屈身宙返り", sample_link: "###" },
+        { number_of_skill: "39", dificulty_of_skill: "4.4", name_of_skill: "側転とび1/4ひねり前方伸身宙返り", sample_link: "###" },
+        { number_of_skill: "40", dificulty_of_skill: "2.8", name_of_skill: "側転とび1/4ひねり後方かかえ込み宙返り（ツカハラとび）", sample_link: "###" }
+        ,
+        { number_of_skill: "41", dificulty_of_skill: "3.2", name_of_skill: "かかえ込みツカハラとびひねり", sample_link: "###" },
+        { number_of_skill: "42", dificulty_of_skill: "3.6", name_of_skill: "かかえ込みツカハラとび１回ひねり（カサマツとび）", sample_link: "###" },
+        { number_of_skill: "43", dificulty_of_skill: "4.0", name_of_skill: "かかえ込みツカハラとび3/2ひねり（カサマツとびひねり）", sample_link: "###" }
+        ,
+        { number_of_skill: "44", dificulty_of_skill: "4.4", name_of_skill: "かかえ込みツカハラとび２回ひねり（カサマツとび１回ひねり）", sample_link: "###" },
+        { number_of_skill: "45", dificulty_of_skill: "3.0", name_of_skill: "屈身ツカハラとび", sample_link: "###" },
+        { number_of_skill: "46", dificulty_of_skill: "3.8", name_of_skill: "屈身ツカハラとび１回ひねり", sample_link: "###" }
+        ,
+        { number_of_skill: "47", dificulty_of_skill: "3.6", name_of_skill: "伸身ツカハラとび", sample_link: "###" },
+        { number_of_skill: "48", dificulty_of_skill: "4.0", name_of_skill: "伸身ツカハラとびひねり", sample_link: "###" },
+        { number_of_skill: "49", dificulty_of_skill: "4.4", name_of_skill: "伸身ツカハラとび１回ひねり（伸身カサマツとび）", sample_link: "###" }
+        ,
+        { number_of_skill: "50", dificulty_of_skill: "4.8", name_of_skill: "伸身ツカハラとび3/2ひねり（伸身カサマツとびひねり）", sample_link: "###" },
+        { number_of_skill: "51", dificulty_of_skill: "5.2", name_of_skill: "伸身ツカハラとび２回ひねり（伸身カサマツとび１回ひねり：アカピアン）", sample_link: "###" },
+        { number_of_skill: "52", dificulty_of_skill: "5.6", name_of_skill: "伸身ツカハラとび5/2ひねり（伸身カサマツとび3/2ひねり：ドリッグス）", sample_link: "###" }
+        ,
+        { number_of_skill: "53", dificulty_of_skill: "6.0", name_of_skill: "伸身ツカハラとび３回ひねり（伸身カサマツとび２回ひねり：ロペス）", sample_link: "###" },
+        { number_of_skill: "54", dificulty_of_skill: "5.6", name_of_skill: "側転とび1/4ひねり後方かかえ込み２回宙返り（ヨー）", sample_link: "###" },
+        { number_of_skill: "55", dificulty_of_skill: "6.4", name_of_skill: "側転とび3/4ひねり後方かかえ込み2回宙返り(リ・セグァン)", sample_link: "###" }
+        ,
+        { number_of_skill: "56", dificulty_of_skill: "6.0", name_of_skill: "側転とび1/4ひねり後方屈身２回宙返り（ルー・ユーフ）", sample_link: "###" }
+    ];
+
+    $scope.mens_vault_group_3_skills = [
+        { number_of_skill: "57", dificulty_of_skill: "2.0", name_of_skill: "ロンダート、後転とび", sample_link: "###" },
+        { number_of_skill: "58", dificulty_of_skill: "2.4", name_of_skill: "ロンダート、後転とびひねり", sample_link: "###" },
+
+        { number_of_skill: "59", dificulty_of_skill: "2.8", name_of_skill: "ロンダート、後転とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "60", dificulty_of_skill: "2.8", name_of_skill: "ロンダート、後転とび後方かかえ込み宙返り（ユルチェンコ）", sample_link: "###" },
+        { number_of_skill: "61", dificulty_of_skill: "3.2", name_of_skill: "ロンダート、後転とび後方かかえ込み宙返りひねり", sample_link: "###" },
+        { number_of_skill: "62", dificulty_of_skill: "3.6", name_of_skill: "ロンダート、後転とび後方かかえ込み宙返り１回ひねり", sample_link: "###" },
+        { number_of_skill: "63", dificulty_of_skill: "4.0", name_of_skill: "ロンダート、後転とび後方かかえ込み宙返り3/2ひねり", sample_link: "###" },
+        { number_of_skill: "64", dificulty_of_skill: "4.4", name_of_skill: "ロンダート、後転とび後方かかえ込み宙返り２回ひねり", sample_link: "###" },
+        { number_of_skill: "65", dificulty_of_skill: "3.0", name_of_skill: "屈身ユルチェンコとび", sample_link: "###" },
+        { number_of_skill: "66", dificulty_of_skill: "3.8", name_of_skill: "屈身ユルチェンコと１回ひねり", sample_link: "###" },
+        { number_of_skill: "67", dificulty_of_skill: "5.6", name_of_skill: "ロンダート、後転とび後方かかえ込み２回宙返り（メリサニディス）", sample_link: "###" },
+        { number_of_skill: "68", dificulty_of_skill: "6.0", name_of_skill: "ロンダート、後転とび後方屈身２回宙返り", sample_link: "###" },
+        { number_of_skill: "69", dificulty_of_skill: "3.6", name_of_skill: "伸身ユルチェンコとび", sample_link: "###" },
+        { number_of_skill: "70", dificulty_of_skill: "4.0", name_of_skill: "伸身ユルチェンコとびひねり", sample_link: "###" },
+        { number_of_skill: "71", dificulty_of_skill: "4.4", name_of_skill: "伸身ユルチェンコとび１回ひねり", sample_link: "###" },
+        { number_of_skill: "72", dificulty_of_skill: "4.8", name_of_skill: "伸身ユルチェンコとび3/2ひねり", sample_link: "###" },
+        { number_of_skill: "73", dificulty_of_skill: "5.2", name_of_skill: "伸身ユルチェンコとび２回ひねり", sample_link: "###" },
+
+        { number_of_skill: "74", dificulty_of_skill: "5.6", name_of_skill: "伸身ユルチェンコとび5/2ひねり(シューフェルト)", sample_link: "###" },
+        { number_of_skill: "75", dificulty_of_skill: "6.0", name_of_skill: "伸身ユルチェンコとび3回ひねり(シライ/キムヒフン)", sample_link: "###" }
+    ];
+
+    $scope.mens_vault_group_4_skills = [
+
+        { number_of_skill: "76", dificulty_of_skill: "2.2", name_of_skill: "ロンダート、後ろとびひねり着手前転とび", sample_link: "###" },
+        { number_of_skill: "77", dificulty_of_skill: "2.2", name_of_skill: "ロンダート、後ろとびひねり着手ヤマシタとび", sample_link: "###" },
+        { number_of_skill: "78", dificulty_of_skill: "2.6", name_of_skill: "ロンダート、後ろとびひねり着手前転とびひねり", sample_link: "###" },
+        { number_of_skill: "79", dificulty_of_skill: "2.6", name_of_skill: "ロンダート、後ろとびひねり着手ヤマシタとびひねり", sample_link: "###" },
+        { number_of_skill: "80", dificulty_of_skill: "3.0", name_of_skill: "ロンダート、後ろとびひねり着手前転とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "81", dificulty_of_skill: "3.0", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方かかえ込み宙返り", sample_link: "###" },
+        { number_of_skill: "82", dificulty_of_skill: "3.4", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方かかえ込み宙返りひねり", sample_link: "###" },
+        { number_of_skill: "83", dificulty_of_skill: "5.8", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方かかえ込み２回宙返り", sample_link: "###" },
+        { number_of_skill: "84", dificulty_of_skill: "3.4", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方屈身宙返り", sample_link: "###" },
+        { number_of_skill: "85", dificulty_of_skill: "3.8", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方屈身宙返りひねり（ネモフ）", sample_link: "###" },
+        { number_of_skill: "86", dificulty_of_skill: "4.2", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方伸身宙返り", sample_link: "###" },
+        { number_of_skill: "87", dificulty_of_skill: "4.6", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方伸身宙返りひねり（ハッチェオン）", sample_link: "###" },
+        { number_of_skill: "88", dificulty_of_skill: "5.0", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方伸身宙返り１回ひねり", sample_link: "###" },
+        { number_of_skill: "89", dificulty_of_skill: "5.4", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方伸身宙返り3/2ひねり", sample_link: "###" },
+        { number_of_skill: "90", dificulty_of_skill: "5.8", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方伸身宙返り２回ひねり", sample_link: "###" },
+        { number_of_skill: "91", dificulty_of_skill: "6.2", name_of_skill: "ロンダート、後ろとびひねり着手前転とび前方伸身宙返り5/2ひねり（リー・シャオペン）", sample_link: "###" }
+    ];
+
+    $scope.mens_vault_group_5_skills = [
+        { number_of_skill: "92", dificulty_of_skill: "2.4", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび", sample_link: "###" },
+        { number_of_skill: "93", dificulty_of_skill: "2.8", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とびひねり", sample_link: "###" },
+        { number_of_skill: "94", dificulty_of_skill: "3.2", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "95", dificulty_of_skill: "3.2", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび後方かかえ込み宙返り", sample_link: "###" },
+        { number_of_skill: "96", dificulty_of_skill: "3.6", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび後方かかえ込み宙返りひねり", sample_link: "###" },
+        { number_of_skill: "97", dificulty_of_skill: "4.0", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび後方かかえ込み宙返り１回ひねり", sample_link: "###" },
+        { number_of_skill: "98", dificulty_of_skill: "4.4", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび後方かかえ込み宙返り3/2ひねり", sample_link: "###" },
+        { number_of_skill: "99", dificulty_of_skill: "4.8", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび後方かかえ込み宙返り２回ひねり", sample_link: "###" },
+        { number_of_skill: "100", dificulty_of_skill: "3.4", name_of_skill: "ロンダート、後ろとび１回ひねり着手後方後転とび屈身宙返り", sample_link: "###" },
+        { number_of_skill: "101", dificulty_of_skill: "4.0", name_of_skill: "ロンダート、後ろとび１回ひねり着手後転とび後方伸身宙返り（シェルボとび）", sample_link: "###" },
+        { number_of_skill: "102", dificulty_of_skill: "4.4", name_of_skill: "シェルボとびひねり", sample_link: "###" },
+        { number_of_skill: "103", dificulty_of_skill: "4.8", name_of_skill: "シェルボとび１回ひねり", sample_link: "###" },
+        { number_of_skill: "104", dificulty_of_skill: "5.2", name_of_skill: "シェルボとび3/2ひねり", sample_link: "###" },
+        { number_of_skill: "105", dificulty_of_skill: "5.6", name_of_skill: "シェルボとび２回ひねり", sample_link: "###" }
+    ];
+
     $scope.parallel_bars_group_1_skills = [
         { number_of_skill: "1", dificulty_of_skill: "A", name_of_skill: "倒立（２秒）\n単棒倒立（２秒）\n後ろ振り倒立（２秒）", sample_link: "###" },
         { number_of_skill: "2", dificulty_of_skill: "B", name_of_skill: "屈腕前振り上向きとび転向", sample_link: "###" },
