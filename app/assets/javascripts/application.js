@@ -87,13 +87,13 @@ app.controller("ApplicationController", ['$scope', function(
     $scope.womens_vault_group_4 = "グループ4： ロンダートから第１空中局面で後ろとび3/4（270°）ひねりを伴うまたは伴わない入り（ユルチェンコ）〜第２空中局面でひねりを伴うまたは伴わない後方宙返り"
     $scope.womens_vault_group_5 = "グループ5： ロンダートから第１空中局面で後ろとび1/2（180°）ひねりを伴う入り〜第２空中局面でひねりを伴う、または伴わない前方宙返りまたは後方宙返り"
 
-    $scope.uneven_bar = "段違い平行棒"
-    $scope.uneven_bar_group_1 = "グループ1： 開始技"
-    $scope.uneven_bar_group_2 = "グループ2： 振り出し、浮き支持回転技（日本語訳）"
-    $scope.uneven_bar_group_3 = "グループ3： 懸垂振動技（日本語訳）"
-    $scope.uneven_bar_group_4 = "グループ4： 浮腰回転技（シュタルダー技）（日本語訳）"
-    $scope.uneven_bar_group_5 = "グループ5： 屈伸回転技（日本語訳）"
-    $scope.uneven_bar_group_6 = "グループ6： 終末技"
+    $scope.uneven_bars = "段違い平行棒"
+    $scope.uneven_bars_group_1 = "グループ1： 開始技"
+    $scope.uneven_bars_group_2 = "グループ2： 振り出し、浮き支持回転技（日本語訳）"
+    $scope.uneven_bars_group_3 = "グループ3： 懸垂振動技（日本語訳）"
+    $scope.uneven_bars_group_4 = "グループ4： 浮腰回転技（シュタルダー技）（日本語訳）"
+    $scope.uneven_bars_group_5 = "グループ5： 屈伸回転技（日本語訳）"
+    $scope.uneven_bars_group_6 = "グループ6： 終末技"
 
     $scope.balance_beam = "平均台"
     $scope.balance_beam_group_1 = "グループ1： 開始技"
@@ -625,7 +625,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "7", dificulty_of_skill: "A", name_of_skill: "前振り上がり1/4ひねり単棒横向き懸垂", sample_link: "###" },
         { number_of_skill: "8", dificulty_of_skill: "B", name_of_skill: "ほん転ひねり腕支持（ワタナベ）\n前振りとび上向き転向支持", sample_link: "###" },
         { number_of_skill: "11", dificulty_of_skill: "E", name_of_skill: "前振り上がり片腕支持3/4ひねり単棒横向き倒立経過、軸手を換えて片腕支持3/4ひねり腕支持", sample_link: "###" },
-        { number_of_skill: "12", dificulty_of_skill: "G", name_of_skill: "前振り上がり片腕支持3/4ひねり単棒横向き倒立経過、片腕支持3/4ひねり支持(ソラキディス 1)  ", sample_link: "###" },
+        { number_of_skill: "12", dificulty_of_skill: "G", name_of_skill: "前振り上がり片腕支持3/4ひねり単棒横向き倒立経過、片腕支持3/4ひねり支持(ソラキディス 1)  ", sample_link: "https://www.youtube.com/watch?v=FqO2M2agjzA&feature=youtu.be&t=48s" },
         { number_of_skill: "14", dificulty_of_skill: "B", name_of_skill: "ほん転倒立", sample_link: "###" },
         { number_of_skill: "18", dificulty_of_skill: "F", name_of_skill: "前振り上がり片腕支持5/4ひねり単棒横向き倒立経過、1/4ひねり倒立(ソラキディス2)", sample_link: "###" },
         { number_of_skill: "20", dificulty_of_skill: "B", name_of_skill: "ほん転開脚入れ腕支持", sample_link: "###" },
@@ -639,14 +639,14 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "33", dificulty_of_skill: "C", name_of_skill: "後ろ振り上がり開脚抜き支持", sample_link: "###" },
         { number_of_skill: "38", dificulty_of_skill: "B", name_of_skill: "後ろ振り上がりひねり支持", sample_link: "###" },
         { number_of_skill: "39", dificulty_of_skill: "C", name_of_skill: "後ろ振り上がり前方かかえ込み(屈身or開脚)5/4宙返り腕支持(ヤマワキ)", sample_link: "###" },
-        { number_of_skill: "40", dificulty_of_skill: "D", name_of_skill: "後ろ振り上がり前方屈身宙返り支持", sample_link: "###" },
+        { number_of_skill: "40", dificulty_of_skill: "D", name_of_skill: "後ろ振り上がり前方屈身宙返り支持", sample_link: "https://www.youtube.com/watch?v=XkHNK4cew7U" },
         { number_of_skill: "43", dificulty_of_skill: "A", name_of_skill: "後ろ振り上がり開脚入れ屈腕支持", sample_link: "###" },
         { number_of_skill: "44", dificulty_of_skill: "B", name_of_skill: "後ろ振り上がり開脚入れ伸腕支持", sample_link: "###" }
     ];
 
     $scope.parallel_bars_group_3_skills = [
         { number_of_skill: "3", dificulty_of_skill: "C", name_of_skill: "懸垂前振り上がり開脚抜き屈腕（腕）支持", sample_link: "###" },
-        { number_of_skill: "4", dificulty_of_skill: "D", name_of_skill: "倒立から伸膝で振り下ろし懸垂前振り上がり開脚抜き倒立(チッペルト)", sample_link: "###" },
+        { number_of_skill: "4", dificulty_of_skill: "D", name_of_skill: "倒立から伸膝で振り下ろし懸垂前振り上がり開脚抜き倒立(チッペルト)", sample_link: "https://www.youtube.com/watch?v=T1Yl4pmYbnw" },
         { number_of_skill: "5", dificulty_of_skill: "E", name_of_skill: "懸垂前振り上がり開脚抜き伸身かつ水平位で懸垂(バブサー)", sample_link: "###" },
         { number_of_skill: "8", dificulty_of_skill: "B", name_of_skill: "懸垂前振り上がり開脚抜きひねり腕支持", sample_link: "###" },
         { number_of_skill: "9", dificulty_of_skill: "C", name_of_skill: "倒立から伸膝で振り下ろし懸垂前振り上がり1回ひねり腕支持(ノレット)", sample_link: "###" },
@@ -659,7 +659,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "32", dificulty_of_skill: "B", name_of_skill: "後方伸身宙返り懸垂", sample_link: "###" },
         { number_of_skill: "33", dificulty_of_skill: "C", name_of_skill: "懸垂前振り後方宙返りひねり腕支持(グシケン)", sample_link: "###" },
         { number_of_skill: "34", dificulty_of_skill: "D", name_of_skill: "懸垂前振り後方宙返りひねり支持(マリニチ)", sample_link: "###" },
-        { number_of_skill: "36", dificulty_of_skill: "G", name_of_skill: "懸垂前振り後方かかえ込み2回宙返り1回ひねり腕支持(キンテロ)", sample_link: "###" },
+        { number_of_skill: "36", dificulty_of_skill: "G", name_of_skill: "懸垂前振り後方かかえ込み2回宙返り1回ひねり腕支持(キンテロ)", sample_link: "https://www.youtube.com/watch?v=UoRbZ9dNwcg" },
         { number_of_skill: "38", dificulty_of_skill: "B", name_of_skill: "後方車輪開脚入れ腕支持", sample_link: "###" },
         { number_of_skill: "39", dificulty_of_skill: "D", name_of_skill: "後方車輪開脚入れ支持(コロレフ)", sample_link: "###" },
         { number_of_skill: "40", dificulty_of_skill: "D", name_of_skill: "懸垂前振り後方かかえ込み2回宙返り腕支持(ベーレ)", sample_link: "###" },
@@ -687,7 +687,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "9", dificulty_of_skill: "C", name_of_skill: "棒下振り出しひねり支持", sample_link: "###" },
         { number_of_skill: "10", dificulty_of_skill: "D", name_of_skill: "逆上がり（棒下宙返り）倒立\n逆上がり（棒下宙返り）背面倒立経過とび倒立（クシェラ）（セレン）", sample_link: "###" },
         { number_of_skill: "11", dificulty_of_skill: "E", name_of_skill: "逆上がり（棒下宙返り）ひねり倒立（１/４or１/２or３/４) ", sample_link: "###" },
-        { number_of_skill: "12", dificulty_of_skill: "G", name_of_skill: "逆上がり（棒下宙返り）5/4ひねり倒立（シュウ・シーフォン）", sample_link: "###" },
+        { number_of_skill: "12", dificulty_of_skill: "G", name_of_skill: "逆上がり（棒下宙返り）5/4ひねり倒立（シュウ・シーフォン）", sample_link: "https://www.youtube.com/watch?v=4VxQ_Ed8UXI" },
         { number_of_skill: "15", dificulty_of_skill: "B", name_of_skill: "棒下振り出し開脚抜き倒立(アリカン)", sample_link: "###" },
         { number_of_skill: "18", dificulty_of_skill: "F", name_of_skill: "逆上がり（棒下宙返り）１回ひねり倒立（テンハイビン）", sample_link: "###" },
         { number_of_skill: "20", dificulty_of_skill: "B", name_of_skill: "逆上がり（棒下宙返り）懸垂", sample_link: "###" },
@@ -717,12 +717,12 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "22", dificulty_of_skill: "D", name_of_skill: "後ろ振り片腕支持ひねり後方かかえ込み（屈身）宙返り下り（ロースリスバーガー）", sample_link: "###" },
         { number_of_skill: "26", dificulty_of_skill: "B", name_of_skill: "棒端、後方かかえ込み2回宙返り下り", sample_link: "###" },
         { number_of_skill: "27", dificulty_of_skill: "C", name_of_skill: "後方かかえ込み2回宙返り下り", sample_link: "###" },
-        { number_of_skill: "28", dificulty_of_skill: "D", name_of_skill: "後方屈身2回宙返り下り", sample_link: "###" },
-        { number_of_skill: "30", dificulty_of_skill: "G", name_of_skill: "後方かかえ込み2回宙返り1回ひねり下り(カトウヒロユキ)", sample_link: "###" },
+        { number_of_skill: "28", dificulty_of_skill: "D", name_of_skill: "後方屈身2回宙返り下り", sample_link: "https://www.youtube.com/watch?v=XkHNK4cew7U" },
+        { number_of_skill: "30", dificulty_of_skill: "G", name_of_skill: "後方かかえ込み2回宙返り1回ひねり下り(カトウヒロユキ)", sample_link: "https://www.youtube.com/watch?v=HOmp9CWTryw#t=39" },
         { number_of_skill: "31", dificulty_of_skill: "A", name_of_skill: "棒端、懸垂前振り後方伸身宙返り下り", sample_link: "###" },
         { number_of_skill: "32", dificulty_of_skill: "B", name_of_skill: "棒端、懸垂前振り後方かかえ込み2回宙返り下り", sample_link: "###" },
         { number_of_skill: "33", dificulty_of_skill: "C", name_of_skill: "棒端、懸垂前振り後方屈身2回宙返り下り", sample_link: "###" },
-        { number_of_skill: "34", dificulty_of_skill: "D", name_of_skill: "棒端、懸垂前振り後方かかえ込み2回宙返り1回ひねり下り", sample_link: "###" }
+        { number_of_skill: "34", dificulty_of_skill: "D", name_of_skill: "棒端、懸垂前振り後方かかえ込み2回宙返り1回ひねり下り", sample_link: "https://www.youtube.com/watch?v=HeYg5xSjn9k" }
      ];
 
 
