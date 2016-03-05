@@ -19,6 +19,10 @@ html
         p.text-center
           | 作成中…（Work in progress...）
         .left_sidebar.col-xs-3
+          p
+            | 訪問者数：
+            = render partial: "access_counter"
+
           = render partial: "twitter"
           /= link_to "Men's Floor", '/mens_floor'
         .middle.col-xs-8
