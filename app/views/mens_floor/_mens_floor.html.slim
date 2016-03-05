@@ -65,7 +65,9 @@
               td width="4%" ng-bind="'II-' + mens_floor_group_2_skill.number_of_skill"
               td width="5%" ng-bind="mens_floor_group_2_skill.dificulty_of_skill"
               td width="75%" ng-bind="mens_floor_group_2_skill.name_of_skill"
-              td width="16%" ng-bind="mens_floor_group_2_skill.sample_link"
+              td width="16%"
+                a ng-href="{{mens_floor_group_2_skill.sample_link}}" style="cursor: pointer" ng-hide="mens_floor_group_2_skill.sample_link === '###'"
+                  | 1
 
     #p3.li
       h4 ng-bind="mens_floor_group_3"
@@ -84,7 +86,9 @@
               td width="5%" ng-bind="'III-' + mens_floor_group_3_skill.number_of_skill"
               td width="4%" ng-bind="mens_floor_group_3_skill.dificulty_of_skill"
               td width="75%" ng-bind="mens_floor_group_3_skill.name_of_skill"
-              td width="16%" ng-bind="mens_floor_group_3_skill.sample_link"
+              td width="16%"
+                a ng-href="{{mens_floor_group_3_skill.sample_link}}" style="cursor: pointer" ng-hide="mens_floor_group_3_skill.sample_link === '###'"
+                  | 1
 
     #p4.li
       h4 ng-bind="mens_floor_group_4"
@@ -103,4 +107,6 @@
               td width="5%" ng-bind="'IV-' + mens_floor_group_4_skill.number_of_skill"
               td width="4%" ng-bind="mens_floor_group_4_skill.dificulty_of_skill"
               td width="75%" ng-bind="mens_floor_group_4_skill.name_of_skill"
-              td width="16%" ng-bind="mens_floor_group_4_skill.sample_link"
+              td width="16%"
+                a ng-href="{{mens_floor_group_4_skill.sample_link}}" style="cursor: pointer" ng-hide="mens_floor_group_4_skill.sample_link === '###'"
+                  | 1

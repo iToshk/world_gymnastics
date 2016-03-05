@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   match "parallel_bars" => "parallel_bars#show", via: :get
   match "horizontal_bar" => "horizontal_bar#show", via: :get
   match "womens_vault" => "womens_vault#show", via: :get
-  match "uneven_bar" => "uneven_bar#show", via: :get
+  match "uneven_bars" => "uneven_bars#show", via: :get
   match "balance_beam" => "balance_beam#show", via: :get
   match "womens_floor" => "womens_floor#show", via: :get
 

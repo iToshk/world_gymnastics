@@ -2,7 +2,7 @@
 
 #sidebar-menu.content.col-md-2
   ul.sidebar-menu.nav.nav-stacked.affix
-    p ng-bind="womens_floor"
+    p ng-bind="wowomens_floor"
     li
       a ng-click="scrollSmoothTo('contents_top')" style="cursor: pointer"
         | Top
@@ -36,90 +36,100 @@
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
           tr
-            th width="16%" ng-bind="number_of_skill"
-            th width="16%" ng-bind="dificulty_of_skill"
-            th width="52%" ng-bind="name_of_skill"
+            th width="5%" ng-bind="number_of_skill"
+            th width="4%" ng-bind="dificulty_of_skill"
+            th width="75%" ng-bind="name_of_skill"
             th width="16%" ng-bind="sample_link"
 
         tbody
           .row.container.col-md-12
-            tr ng-repeat="mens_floor_group_1_skill in mens_floor_group_1_skills"
-              td width="16%" ng-bind="'I-' + mens_floor_group_1_skill.number_of_skill"
-              td width="16%" ng-bind="mens_floor_group_1_skill.dificulty_of_skill"
-              td width="52%" ng-bind="mens_floor_group_1_skill.name_of_skill"
-              td width="16%" ng-bind="mens_floor_group_1_skill.sample_link"
+            tr ng-repeat="womens_floor_group_1_skill in womens_floor_group_1_skills"
+              td width="5%" ng-bind="'I-' + womens_floor_group_1_skill.number_of_skill"
+              td width="4%" ng-bind="womens_floor_group_1_skill.dificulty_of_skill"
+              td width="75%" ng-bind="womens_floor_group_1_skill.name_of_skill"
+              td width="16%"
+                a ng-href="{{womens_floor_group_1.sample_link}}" style="cursor: pointer" ng-hide="womens_floor_group_1.sample_link === '###'"
+                  | 1
 
     #p2.li
-      h4 ng-bind="womens_floor_group_2"
+      h4 ng-bind="wowomens_floor_group_2"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
           tr
-            th width="16%" ng-bind="number_of_skill"
-            th width="16%" ng-bind="dificulty_of_skill"
-            th width="52%" ng-bind="name_of_skill"
+            th width="5%" ng-bind="number_of_skill"
+            th width="4%" ng-bind="dificulty_of_skill"
+            th width="75%" ng-bind="name_of_skill"
             th width="16%" ng-bind="sample_link"
 
         tbody
           .row.content.col-md-12
-            tr ng-repeat="mens_floor_group_2_skill in mens_floor_group_2_skills"
-              td width="16%" ng-bind="'II-' + mens_floor_group_2_skill.num"
-              td width="16%" ng-bind="mens_floor_group_2_skill.dificulty"
-              td width="52%" ng-bind="mens_floor_group_2_skill.name"
-              td width="16%" ng-bind="mens_floor_group_2_skill.sample_link"
+            tr ng-repeat="womens_floor_group_2_skill in womens_floor_group_2_skills"
+              td width="5%" ng-bind="'II-' + womens_floor_group_2_skill.number_of_skill"
+              td width="4%" ng-bind="womens_floor_group_2_skill.dificulty_of_skill"
+              td width="75%" ng-bind="womens_floor_group_2_skill.name_of_skill"
+              td width="16%"
+                a ng-href="{{womens_floor_group_2.sample_link}}" style="cursor: pointer" ng-hide="womens_floor_group_2.sample_link === '###'"
+                  | 1
 
     #p3.li
-      h4 ng-bind="womens_floor_group_3"
+      h4 ng-bind="wowomens_floor_group_3"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
           tr
-            th width="16%" ng-bind="number_of_skill"
-            th width="16%" ng-bind="dificulty_of_skill"
-            th width="52%" ng-bind="name_of_skill"
+            th width="5%" ng-bind="number_of_skill"
+            th width="4%" ng-bind="dificulty_of_skill"
+            th width="75%" ng-bind="name_of_skill"
             th width="16%" ng-bind="sample_link"
 
         tbody
           .row.content.col-md-12
-            tr ng-repeat="mens_floor_group_3_skill in mens_floor_group_3_skills"
-              td width="16%" ng-bind="'III-' + mens_floor_group_3_skill.num"
-              td width="16%" ng-bind="mens_floor_group_3_skill.dificulty"
-              td width="52%" ng-bind="mens_floor_group_3_skill.name"
-              td width="16%" ng-bind="mens_floor_group_3_skill.sample_link"
+            tr ng-repeat="womens_floor_group_3_skill in womens_floor_group_3_skills"
+              td width="5%" ng-bind="'III-' + womens_floor_group_3_skill.number_of_skill"
+              td width="4%" ng-bind="womens_floor_group_3_skill.dificulty_of_skill"
+              td width="75%" ng-bind="womens_floor_group_3_skill.name_of_skill"
+              td width="16%"
+                a ng-href="{{womens_floor_group_3.sample_link}}" style="cursor: pointer" ng-hide="womens_floor_group_3.sample_link === '###'"
+                  | 1
 
     #p4.li
-      h4 ng-bind="womens_floor_group_4"
+      h4 ng-bind="wowomens_floor_group_4"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
           tr
-            th width="16%" ng-bind="number_of_skill"
-            th width="16%" ng-bind="dificulty_of_skill"
-            th width="52%" ng-bind="name_of_skill"
+            th width="5%" ng-bind="number_of_skill"
+            th width="4%" ng-bind="dificulty_of_skill"
+            th width="75%" ng-bind="name_of_skill"
             th width="16%" ng-bind="sample_link"
 
         tbody
           .row.content.col-md-12
-            tr ng-repeat="mens_floor_group_4_skill in mens_floor_group_4_skills"
-              td width="16%" ng-bind="'IV-' + mens_floor_group_4_skill.num"
-              td width="16%" ng-bind="mens_floor_group_4_skill.dificulty"
-              td width="52%" ng-bind="mens_floor_group_4_skill.name"
-              td width="16%" ng-bind="mens_floor_group_4_skill.sample_link"
+            tr ng-repeat="womens_floor_group_4_skill in womens_floor_group_4_skills"
+              td width="5%" ng-bind="'IV-' + womens_floor_group_4_skill.number_of_skill"
+              td width="4%" ng-bind="womens_floor_group_4_skill.dificulty_of_skill"
+              td width="75%" ng-bind="womens_floor_group_4_skill.name_of_skill"
+              td width="16%"
+                a ng-href="{{womens_floor_group_4.sample_link}}" style="cursor: pointer" ng-hide="womens_floor_group_4.sample_link === '###'"
+                  | 1
     #p5.li
-      h4 ng-bind="womens_floor_group_5"
+      h4 ng-bind="wowomens_floor_group_5"
 
       table.table.table-bordered.table-hover.table-condensed.table-striped
         thead
           tr
-            th width="16%" ng-bind="number_of_skill"
-            th width="16%" ng-bind="dificulty_of_skill"
-            th width="52%" ng-bind="name_of_skill"
+            th width="5%" ng-bind="number_of_skill"
+            th width="4%" ng-bind="dificulty_of_skill"
+            th width="75%" ng-bind="name_of_skill"
             th width="16%" ng-bind="sample_link"
 
         tbody
           .row.content.col-md-12
-            tr ng-repeat="mens_floor_group_4_skill in mens_floor_group_4_skills"
-              td width="16%" ng-bind="'IV-' + mens_floor_group_4_skill.num"
-              td width="16%" ng-bind="mens_floor_group_4_skill.dificulty"
-              td width="52%" ng-bind="mens_floor_group_4_skill.name"
-              td width="16%" ng-bind="mens_floor_group_4_skill.sample_link"
+            tr ng-repeat="womens_floor_group_5_skill in womens_floor_group_5_skills"
+              td width="5%" ng-bind="'IV-' + womens_floor_group_5_skill.number_of_skill"
+              td width="4%" ng-bind="womens_floor_group_5_skill.dificulty_of_skill"
+              td width="75%" ng-bind="womens_floor_group_5_skill.name_of_skill"
+              td width="16%"
+                a ng-href="{{womens_floor_group_5.sample_link}}" style="cursor: pointer" ng-hide="womens_floor_group_5.sample_link === '###'"
+                  | 1

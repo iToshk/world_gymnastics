@@ -1,0 +1,2 @@
+class UnevenBarsController < ApplicationController
+end

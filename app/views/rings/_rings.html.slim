@@ -47,7 +47,9 @@
               td width="5%" ng-bind="'I-' + rings_group_1_skill.number_of_skill"
               td width="4%" ng-bind="rings_group_1_skill.dificulty_of_skill"
               td width="75%" ng-bind="rings_group_1_skill.name_of_skill"
-              td width="16%" ng-bind="rings_group_1_skill.sample_link"
+              td width="16%"
+                a ng-href="{{rings_group_1_skill.sample_link}}" style="cursor: pointer" ng-hide="rings_group_1_skill.sample_link === '###'"
+                  | 1
 
     #p2.li
       h4 ng-bind="rings_group_2"
@@ -66,7 +68,9 @@
               td width="5%" ng-bind="'II-' + rings_group_2_skill.number_of_skill"
               td width="4%" ng-bind="rings_group_2_skill.dificulty_of_skill"
               td width="75%" ng-bind="rings_group_2_skill.name_of_skill"
-              td width="16%" ng-bind="rings_group_2_skill.sample_link"
+              td width="16%"
+                a ng-href="{{rings_group_2_skill.sample_link}}" style="cursor: pointer" ng-hide="rings_group_2_skill.sample_link === '###'"
+                  | 1
 
     #p3.li
       h4 ng-bind="rings_group_3"
@@ -85,7 +89,9 @@
               td width="5%" ng-bind="'III-' + rings_group_3_skill.number_of_skill"
               td width="4%" ng-bind="rings_group_3_skill.dificulty_of_skill"
               td width="75%" ng-bind="rings_group_3_skill.name_of_skill"
-              td width="16%" ng-bind="rings_group_3_skill.sample_link"
+              td width="16%"
+                a ng-href="{{rings_group_3_skill.sample_link}}" style="cursor: pointer" ng-hide="rings_group_3_skill.sample_link === '###'"
+                  | 1
 
     #p4.li
       h4 ng-bind="rings_group_4"
@@ -104,7 +110,9 @@
               td width="5%" ng-bind="'IV-' + rings_group_4_skill.number_of_skill"
               td width="4%" ng-bind="rings_group_4_skill.dificulty_of_skill"
               td width="75%" ng-bind="rings_group_4_skill.name_of_skill"
-              td width="16%" ng-bind="rings_group_4_skill.sample_link"
+              td width="16%"
+                a ng-href="{{rings_group_4_skill.sample_link}}" style="cursor: pointer" ng-hide="rings_group_4_skill.sample_link === '###'"
+                  | 1
     #p5.li
       h4 ng-bind="rings_group_5"
 
@@ -118,8 +126,10 @@
 
         tbody
           .row.content.col-md-12
-            tr ng-repeat="rings_group_4_skill in rings_group_4_skills"
-              td width="5%" ng-bind="'IV-' + rings_group_4_skill.number_of_skill"
-              td width="4%" ng-bind="rings_group_4_skill.dificulty_of_skill"
-              td width="75%" ng-bind="rings_group_4_skill.name_of_skill"
-              td width="16%" ng-bind="rings_group_4_skill.sample_link"
+            tr ng-repeat="rings_group_5_skill in rings_group_5_skills"
+              td width="5%" ng-bind="'IV-' + rings_group_5_skill.number_of_skill"
+              td width="4%" ng-bind="rings_group_5_skill.dificulty_of_skill"
+              td width="75%" ng-bind="rings_group_5_skill.name_of_skill"
+              td width="16%"
+                a ng-href="{{rings_group_5_skill.sample_link}}" style="cursor: pointer" ng-hide="rings_group_5_skill.sample_link === '###'"
+                  | 1
