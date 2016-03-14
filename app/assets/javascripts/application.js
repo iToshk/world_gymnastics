@@ -853,7 +853,146 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "32", dificulty_of_skill: "B", name_of_skill: "棒端、懸垂前振り後方かかえ込み2回宙返り下り", sample_link: "###" },
         { number_of_skill: "33", dificulty_of_skill: "C", name_of_skill: "棒端、懸垂前振り後方屈身2回宙返り下り", sample_link: "###" },
         { number_of_skill: "34", dificulty_of_skill: "D", name_of_skill: "棒端、懸垂前振り後方かかえ込み2回宙返り1回ひねり下り", sample_link: "https://www.youtube.com/watch?v=HeYg5xSjn9k" }
-     ];
+    ];
+
+    $scope.womens_floor_group_1_skills = [
+        { number_of_skill: "1.101", dificulty_of_skill: "A", name_of_skill: "片足踏み切り、前後開脚とび", sample_link: "https://www.youtube.com/watch?v=JRa57M5VFic" },
+        { number_of_skill: "1.101", dificulty_of_skill: "A", name_of_skill: "片足踏み切り、前とび1/4ひねりから左右開脚屈伸（両足は水平より上）、または左右開脚、（片足、両足）着地", sample_link: "###" },
+        { number_of_skill: "1.201", dificulty_of_skill: "B", name_of_skill: "片足踏み切り、前後開脚とび1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.201", dificulty_of_skill: "B", name_of_skill: "カデット、片足着地", sample_link: "###" },
+        { number_of_skill: "1.301", dificulty_of_skill: "C", name_of_skill: "片足踏み切り、前後開脚とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.301", dificulty_of_skill: "C", name_of_skill: "片足踏み切り、前後開脚とび1１回ひねり、開脚座", sample_link: "###" },
+        { number_of_skill: "1.301", dificulty_of_skill: "C", name_of_skill: "片足踏み切り、左右開脚とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.401", dificulty_of_skill: "D", name_of_skill: "片足踏み切り、前後開脚とび１1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.102", dificulty_of_skill: "A", name_of_skill: "両足踏み切り、前後開脚とび or 鹿とび、または1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.202", dificulty_of_skill: "B", name_of_skill: "両足踏み切り、前後開脚とび1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.302", dificulty_of_skill: "C", name_of_skill: "両足踏み切り、前後開脚とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.402", dificulty_of_skill: "D", name_of_skill: "両足踏み切り、前後開脚とび１1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.103", dificulty_of_skill: "A", name_of_skill: "かかえ込みとび、空中で前後開脚", sample_link: "###" },
+        { number_of_skill: "1.204", dificulty_of_skill: "B", name_of_skill: "前へ脚交差した前後開脚とび", sample_link: "###" },
+        { number_of_skill: "1.304", dificulty_of_skill: "C", name_of_skill: "前へ脚交差した前後開脚とび1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.404", dificulty_of_skill: "D", name_of_skill: "前へ脚交差した前後開脚とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.205", dificulty_of_skill: "B", name_of_skill: "前へ脚交差し、1/4ひねりとび［ジョンソン］", sample_link: "###" },
+        { number_of_skill: "1.305", dificulty_of_skill: "C", name_of_skill: "ジョンソン1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.405", dificulty_of_skill: "D", name_of_skill: "ジョンソン１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.106", dificulty_of_skill: "A", name_of_skill: "両足踏み切り、屈伸とび", sample_link: "###" },
+        { number_of_skill: "1.206", dificulty_of_skill: "B", name_of_skill: "両足踏み切り、屈伸とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.306", dificulty_of_skill: "C", name_of_skill: "１回の（前方、後方）バタフライ", sample_link: "###" },
+        { number_of_skill: "1.107", dificulty_of_skill: "A", name_of_skill: "左右開脚屈伸とびまたは左右開脚とび", sample_link: "###" },
+        { number_of_skill: "1.207", dificulty_of_skill: "B", name_of_skill: "左右開脚屈伸とびまたは左右開脚とび1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.307", dificulty_of_skill: "C", name_of_skill: "左右開脚屈伸とびまたは左右開脚１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.407", dificulty_of_skill: "D", name_of_skill: "左右開脚屈伸とびまたは左右開脚とび１1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.108", dificulty_of_skill: "A", name_of_skill: "左右開脚屈伸または左右開脚とびから正面支持臥または1/2ひねり", sample_link: "###" },
+        { number_of_skill: "1.108", dificulty_of_skill: "A", name_of_skill: "片足踏み切り、片脚を振り上げながら１回ひねり左右開脚、正面支持臥", sample_link: "###" },
+        { number_of_skill: "1.208", dificulty_of_skill: "B", name_of_skill: "左右開脚屈伸または左右開脚とび１回ひねり正面支持臥", sample_link: "###" },
+        { number_of_skill: "1.208", dificulty_of_skill: "B", name_of_skill: "片足踏み切り、水平で両脚を閉じた１1/2ひねりとび、正面支持臥", sample_link: "###" },
+        { number_of_skill: "1.109", dificulty_of_skill: "A", name_of_skill: "両脚踏み切り、シソンヌ片足着地", sample_link: "###" },
+        { number_of_skill: "1.109", dificulty_of_skill: "A", name_of_skill: "両脚踏み切り、輪とび", sample_link: "###" },
+        { number_of_skill: "1.109", dificulty_of_skill: "A", name_of_skill: "両脚踏み切り、前脚を曲げた輪とび", sample_link: "###" },
+        { number_of_skill: "1.209", dificulty_of_skill: "B", name_of_skill: "カデットから輪", sample_link: "###" },
+        { number_of_skill: "1.209", dificulty_of_skill: "B", name_of_skill: "両脚を頭につけるように頭部後屈し、アーチ姿勢に反ったジャンプ（羊とび）", sample_link: "###" },
+        { number_of_skill: "1.309", dificulty_of_skill: "C", name_of_skill: "前へ脚交差した前後開脚とびから輪", sample_link: "###" },
+        { number_of_skill: "1.309", dificulty_of_skill: "C", name_of_skill: "片足踏み切り、輪とび", sample_link: "###" },
+        { number_of_skill: "1.409", dificulty_of_skill: "D", name_of_skill: "片足踏み切り、または両足踏み切り、前後開脚とび１回ひねりから輪 or 前へ脚交差した前後開脚とびから輪、1/2ひねり", sample_link: "https://www.youtube.com/watch?v=BjCZkJn4mPc" },
+        { number_of_skill: "1.110", dificulty_of_skill: "A", name_of_skill: "（片足、両足）踏み切り、伸身とび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.210", dificulty_of_skill: "B", name_of_skill: "（片足、両足）踏み切り、伸身とび２回ひねり", sample_link: "###" },
+        { number_of_skill: "1.111", dificulty_of_skill: "A", name_of_skill: "ねことび", sample_link: "###" },
+        { number_of_skill: "1.211", dificulty_of_skill: "B", name_of_skill: "ねことび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.311", dificulty_of_skill: "C", name_of_skill: "ねことび２回ひねり", sample_link: "###" },
+        { number_of_skill: "1.112", dificulty_of_skill: "A", name_of_skill: "片脚を前に振り上げた1/2ひねりとび、正面水平立ち", sample_link: "###" },
+        { number_of_skill: "1.312", dificulty_of_skill: "C", name_of_skill: "片足踏み切り、初めから終わりまで片脚を前に伸ばして水平より上に上げた１回ひねりとび", sample_link: "###" },
+        { number_of_skill: "1.113", dificulty_of_skill: "A", name_of_skill: "（片足、両足）踏み切り、かかえ込みとび", sample_link: "###" },
+        { number_of_skill: "1.213", dificulty_of_skill: "B", name_of_skill: "（片足、両足）踏み切り、かかえ込みとび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.313", dificulty_of_skill: "C", name_of_skill: "（片足、両足）踏み切り、かかえ込みとび２回ひねり、または正面支持臥", sample_link: "###" },
+        { number_of_skill: "1.114", dificulty_of_skill: "A", name_of_skill: "（片足、両足）踏み切り、ウルフとび", sample_link: "###" },
+        { number_of_skill: "1.114", dificulty_of_skill: "A", name_of_skill: "前へ脚交差したウルフとび", sample_link: "###" },
+        { number_of_skill: "1.214", dificulty_of_skill: "B", name_of_skill: "（片足、両足）踏み切り、ウルフとび１回ひねり", sample_link: "###" },
+        { number_of_skill: "1.214", dificulty_of_skill: "B", name_of_skill: "（片足、両足）踏み切り、ウルフとび１回ひねり、正面支持臥", sample_link: "###" },
+        { number_of_skill: "1.314", dificulty_of_skill: "D", name_of_skill: "（片足、両足）踏み切り、ウルフとび２回ひねり", sample_link: "###" }
+    ];
+
+    $scope.womens_floor_group_2_skills = [
+        { number_of_skill: "2.101", dificulty_of_skill: "A", name_of_skill: "片足立ち１回ターン", sample_link: "https://www.youtube.com/watch?v=zq9oB-k27rw" },
+        { number_of_skill: "2.201", dificulty_of_skill: "B", name_of_skill: "片足立ち２回ターン", sample_link: "###" },
+        { number_of_skill: "2.301", dificulty_of_skill: "C", name_of_skill: "片足立ち３回ターン", sample_link: "###" },
+        { number_of_skill: "2.501", dificulty_of_skill: "E", name_of_skill: "片足立ち４回ターン", sample_link: "###" },
+        { number_of_skill: "2.202", dificulty_of_skill: "B", name_of_skill: "前へ上げた浮脚の踵をターンの初めから終わりまで水平に保つ１回ターン", sample_link: "###" },
+        { number_of_skill: "2.402", dificulty_of_skill: "D", name_of_skill: "前へ上げた浮脚の踵をターンの初めから終わりまで水平に保つ２回ターン", sample_link: "###" },
+        { number_of_skill: "2.203", dificulty_of_skill: "B", name_of_skill: "180度開脚した浮脚の上方をターンの初めから終わりまで手で保持した１回ターン", sample_link: "###" },
+        { number_of_skill: "2.403", dificulty_of_skill: "D", name_of_skill: "180度開脚した浮脚の上方をターンの初めから終わりまで手で保持した２回ターン", sample_link: "###" },
+        { number_of_skill: "2.503", dificulty_of_skill: "E", name_of_skill: "180度開脚した浮脚の上方をターンの初めから終わりまで手で保持した３回ターン", sample_link: "https://www.youtube.com/watch?v=PxS1NkmG09E" },
+        { number_of_skill: "2.204", dificulty_of_skill: "B", name_of_skill: "後ろへ上げた浮脚の大腿部をターンの初めから終わりまで水平に保つ片足立ち１回ターン", sample_link: "###" },
+        { number_of_skill: "2.404", dificulty_of_skill: "D", name_of_skill: "後ろへ上げた浮脚の大腿部をターンの初めから終わりまで水平に保つ片足立ち２回ターン", sample_link: "###" },
+        { number_of_skill: "2.205", dificulty_of_skill: "B", name_of_skill: "後ろへ上げた浮脚をターンの初めから終わりまで手で上方に保持した１回ターン", sample_link: "###" },
+        { number_of_skill: "2.206", dificulty_of_skill: "B", name_of_skill: "浮脚や手が床に触れないで、片脚を後ろに振り上げた前後開脚立ち１回ターン（イリュージョン）", sample_link: "###" },
+        { number_of_skill: "2.306", dificulty_of_skill: "C", name_of_skill: "浮脚や手が床に触れないで、片脚を後ろに振り上げた前後開脚立ち２回ターン（イリュージョン）", sample_link: "###" },
+        { number_of_skill: "2.107", dificulty_of_skill: "A", name_of_skill: "片足上でしゃがみ立ち１回ターン", sample_link: "###" },
+        { number_of_skill: "2.207", dificulty_of_skill: "B", name_of_skill: "片足上でしゃがみ立ち２回ターン（浮脚は曲げる）", sample_link: "###" },
+        { number_of_skill: "2.407", dificulty_of_skill: "D", name_of_skill: "片足上でしゃがみ立ち３回ターン", sample_link: "###" },
+        { number_of_skill: "2.507", dificulty_of_skill: "E", name_of_skill: "片足上でしゃがみ立ち４回ターン", sample_link: "###" },
+        { number_of_skill: "2.208", dificulty_of_skill: "B", name_of_skill: "屈伸仰臥姿勢で２回以上のターン", sample_link: "###" }
+    ];
+
+    $scope.womens_floor_group_3_skills = [
+        { number_of_skill: "3.101", dificulty_of_skill: "A", name_of_skill: "（とび、引き上げ）倒立、または1/2～２回）ひねり", sample_link: "###" },
+        { number_of_skill: "3.102", dificulty_of_skill: "A", name_of_skill: "とび前転", sample_link: "###" },
+        { number_of_skill: "3.103", dificulty_of_skill: "A", name_of_skill: "後転倒立1/2～１1/2ひねり", sample_link: "###" },
+        { number_of_skill: "3.203", dificulty_of_skill: "B", name_of_skill: "後転倒立２回ひねり", sample_link: "###" },
+        { number_of_skill: "3.104", dificulty_of_skill: "A", name_of_skill: "（立位、前脚を伸ばした座）から、倒立局面で、１回ひねりをした後方倒立回転", sample_link: "###" },
+        { number_of_skill: "3.105", dificulty_of_skill: "A", name_of_skill: "（片足、両足踏み切り、前とび）前転とび", sample_link: "###" },
+        { number_of_skill: "3.105", dificulty_of_skill: "A", name_of_skill: "後ろとび1/2ひねり前転とび", sample_link: "###" },
+        { number_of_skill: "3.305", dificulty_of_skill: "C", name_of_skill: "前転とび１回ひねり、前とび１回ひねり前転とび", sample_link: "###" },
+        { number_of_skill: "3.106", dificulty_of_skill: "A", name_of_skill: "ロンダート", sample_link: "###" },
+        { number_of_skill: "3.107", dificulty_of_skill: "A", name_of_skill: "すべての後転とび or 片手後転とび or アウエルバッハ後転とび", sample_link: "###" },
+        { number_of_skill: "3.107", dificulty_of_skill: "A", name_of_skill: "後ろとび1/4ひねり、支持なし側方倒立回転からさらに1/4ひねり、正面支持臥", sample_link: "###" },
+        { number_of_skill: "3.207", dificulty_of_skill: "A", name_of_skill: "後転倒立1/2～１1/2ひねり", sample_link: "###" },
+        { number_of_skill: "3.203", dificulty_of_skill: "B", name_of_skill: "手支持の前に１回ひねりをした後転とび", sample_link: "###" },
+    ];
+
+
+
+
+
+    $scope.womens_floor_group_4_skills = [
+        { number_of_skill: "4.101", dificulty_of_skill: "A", name_of_skill: "前方宙返り（かかえ込み、屈伸）", sample_link: "###" },
+        { number_of_skill: "4.201", dificulty_of_skill: "B", name_of_skill: "前方かかえ込み宙返り（1/2、１回）ひねり or 前方屈伸宙返り1/2ひねり", sample_link: "###" },
+        { number_of_skill: "4.301", dificulty_of_skill: "C", name_of_skill: "前方かかえ込み宙返り１1/2ひねり", sample_link: "###" },
+        { number_of_skill: "4.501", dificulty_of_skill: "E", name_of_skill: "前方かかえ込み２回宙返り", sample_link: "###" },
+        { number_of_skill: "4.601", dificulty_of_skill: "F", name_of_skill: "前方かかえ込み２回宙返り1/2ひねり or 前方屈伸２回宙返り", sample_link: "https://www.youtube.com/watch?v=5EcmLUQ5Ueo&feature=youtu.be" },
+        { number_of_skill: "4.202", dificulty_of_skill: "B", name_of_skill: "前方伸身宙返り、または1/2ひねり", sample_link: "###" },
+        { number_of_skill: "4.302", dificulty_of_skill: "C", name_of_skill: "前方伸身宙返り（１回、１1/2ひねり）ひねり or 前方屈伸宙返り1/2ひねり", sample_link: "###" },
+        { number_of_skill: "4.402", dificulty_of_skill: "D", name_of_skill: "前方伸身宙返り２回ひねり", sample_link: "###" },
+        { number_of_skill: "4.502", dificulty_of_skill: "E", name_of_skill: "前方伸身宙返り２1/2ひねり", sample_link: "###" },
+        { number_of_skill: "4.103", dificulty_of_skill: "A", name_of_skill: "片脚踏み切り、前方伸身宙返り", sample_link: "###" },
+        { number_of_skill: "4.104", dificulty_of_skill: "A", name_of_skill: "片足踏み切り、側方宙返り、または手支持のないロンダート", sample_link: "###" },
+        { number_of_skill: "4.105", dificulty_of_skill: "A", name_of_skill: "（片足、両足）踏み切り、側方宙返り（かかえ込み、屈伸）", sample_link: "###" },
+        { number_of_skill: "4.205", dificulty_of_skill: "B", name_of_skill: "後ろとび1/2ひねり前方宙返り（かかえ込み、屈伸、伸身）", sample_link: "###" },
+        { number_of_skill: "4.505", dificulty_of_skill: "E", name_of_skill: "後ろとび1/2ひねり前方かかえ込み２回宙返り、または1/2ひねり", sample_link: "###" },
+        { number_of_skill: "4.605", dificulty_of_skill: "F", name_of_skill: "後ろとび1/2ひねり前方屈伸２回宙返り", sample_link: "###" },
+        { number_of_skill: "4.705", dificulty_of_skill: "G", name_of_skill: "後ろとび1/2ひねり前方伸身２回宙返り", sample_link: "###" }
+    ];
+
+    $scope.womens_floor_group_5_skills = [
+        { number_of_skill: "5.101", dificulty_of_skill: "A", name_of_skill: "後方宙返り（かかえ込み、屈伸、伸身）", sample_link: "###" },
+        { number_of_skill: "5.201", dificulty_of_skill: "B", name_of_skill: "後方宙返り（かかえ込み、伸身）（1/2、１回）ひねり", sample_link: "###" },
+        { number_of_skill: "5.301", dificulty_of_skill: "C", name_of_skill: "後方伸身宙返り（１1/2、２回）ひねり", sample_link: "###" },
+        { number_of_skill: "5.401", dificulty_of_skill: "D", name_of_skill: "後方伸身宙返り２1/2ひねり", sample_link: "###" },
+        { number_of_skill: "5.501", dificulty_of_skill: "E", name_of_skill: "後方伸身宙返り３回ひねり", sample_link: "###" },
+        { number_of_skill: "5.601", dificulty_of_skill: "F", name_of_skill: "後方伸身宙返り３1/2ひねり", sample_link: "###" },
+        { number_of_skill: "5.402", dificulty_of_skill: "D", name_of_skill: "後方２回宙返り（かかえ込み、屈伸）", sample_link: "###" },
+        { number_of_skill: "5.502", dificulty_of_skill: "E", name_of_skill: "後方２回宙返り１回ひねり（かかえ込み、屈伸）", sample_link: "###" },
+        { number_of_skill: "5.802", dificulty_of_skill: "H", name_of_skill: "後方かかえ込み２回宙返り２回ひねり", sample_link: "###" },
+        { number_of_skill: "5.603", dificulty_of_skill: "F", name_of_skill: "後方伸身２回宙返り", sample_link: "###" },
+        { number_of_skill: "5.703", dificulty_of_skill: "G", name_of_skill: "後方伸身２回宙返り1/2ひねり", sample_link: "###" },
+        { number_of_skill: "5.803", dificulty_of_skill: "H", name_of_skill: "後方伸身２回宙返り１回ひねり", sample_link: "###" },
+        { number_of_skill: "5.903", dificulty_of_skill: "I", name_of_skill: "後方伸身２回宙返り２回ひねり", sample_link: "###" },
+        { number_of_skill: "5.104", dificulty_of_skill: "A", name_of_skill: "後方テンポ宙返り", sample_link: "###" },
+        { number_of_skill: "5.204", dificulty_of_skill: "B", name_of_skill: "テンポ宙返り（1/2、１回）ひねり", sample_link: "###" },
+        { number_of_skill: "5.105", dificulty_of_skill: "A", name_of_skill: "アウエルバッハ宙返り（かかえ込み、屈伸、伸身）", sample_link: "###" },
+        { number_of_skill: "5.205", dificulty_of_skill: "B", name_of_skill: "アウエルバッハかかえ込み宙返り１回ひねり", sample_link: "###" },
+        { number_of_skill: "5.206", dificulty_of_skill: "B", name_of_skill: "前とび1/2ひねり後方宙返り（かかえ込み、屈伸）", sample_link: "###" }
+    ];
+
 
 
     $scope.scrollSmoothTo = function(elementOrName){
