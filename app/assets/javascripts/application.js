@@ -1084,8 +1084,6 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "4.53", dificulty_of_skill: "5.80", name_of_skill: "ロンダート後ろとび3/4ひねり～後方伸身宙返り１回ひねり", sample_link: "" },
     ];
 
-
-
     $scope.womens_vault_group_5_skills = [
         { number_of_skill: "5.10", dificulty_of_skill: "4.60", name_of_skill: "ロンダート後ろとび1/2ひねり～前方かかえ込み宙返り", sample_link: "" },
         { number_of_skill: "5.11", dificulty_of_skill: "5.00", name_of_skill: "ロンダート後ろとび1/2ひねり～前方かかえ込み宙返り1/2ひねり or ロンダート後ろとび1/2ひねり～1/2ひねり後方かかえ込み宙返り", sample_link: "" },
@@ -1102,10 +1100,10 @@ app.controller("ApplicationController", ['$scope', function(
     ];
 
     $scope.uneven_bars_group_1_skills = [
-        { number_of_skill: "1.101", dificulty_of_skill: "A", name_of_skill: "低棒け上がり、または低棒け上がり1/2ひねり", sample_link: "" },
+        { number_of_skill: "1.101", dificulty_of_skill: "A", name_of_skill: "低棒け上がり、または低棒け上がり1/2ひねり", sample_link: " https://youtu.be/z7OGj3J9uV8" },
         { number_of_skill: "1.102", dificulty_of_skill: "A", name_of_skill: "前とび1/2ひねり低棒け上がり・前とび1/2ひねり低棒浮腰上がり", sample_link: "" },
         { number_of_skill: "1.103", dificulty_of_skill: "A", name_of_skill: "(低棒、高棒)浮腰上がり、背面支持または浮腰上がり開脚抜き～同一棒に懸垂", sample_link: "" },
-        { number_of_skill: "1.104", dificulty_of_skill: "A", name_of_skill: "高棒け上がり(順手、逆手)", sample_link: "" },
+        { number_of_skill: "1.104", dificulty_of_skill: "A", name_of_skill: "高棒け上がり(順手、逆手)", sample_link: "https://youtu.be/z7OGj3J9uV8" },
         { number_of_skill: "1.105", dificulty_of_skill: "A", name_of_skill: "高棒内向き、前とび１回ひねり高棒懸垂", sample_link: "" },
         { number_of_skill: "1.106", dificulty_of_skill: "A", name_of_skill: "低棒支持開脚とび越し～高棒懸垂", sample_link: "" },
         { number_of_skill: "1.202", dificulty_of_skill: "B", name_of_skill: "前とび１回ひねり低棒け上がり", sample_link: "" },
@@ -1129,7 +1127,7 @@ app.controller("ApplicationController", ['$scope', function(
     ];
 
     $scope.uneven_bars_group_2_skills = [
-        { number_of_skill: "2.101", dificulty_of_skill: "A", name_of_skill: "後ろ振り上げ(開脚、屈伸)倒立、またはとび持ち換え", sample_link: "" },
+        { number_of_skill: "2.101", dificulty_of_skill: "A", name_of_skill: "後ろ振り上げ(開脚、屈伸)倒立、またはとび持ち換え", sample_link: " https://youtu.be/z7OGj3J9uV8" },
         { number_of_skill: "2.104", dificulty_of_skill: "A", name_of_skill: "前方支持回転(棒に接しながら) ", sample_link: "" },
         { number_of_skill: "2.105", dificulty_of_skill: "A", name_of_skill: "後方支持回転(棒に接しながら)・低棒後方浮支持回転、または後方臥回転～後ろへはねて低棒懸垂", sample_link: "" },
         { number_of_skill: "2.201", dificulty_of_skill: "B", name_of_skill: "後ろ振り上げ閉脚伸身倒立、またはとび(逆手、大逆手)持ち換え、または後ろ振り上げ(閉脚、開脚)倒立1/2ひねり", sample_link: "" },
@@ -1161,19 +1159,19 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "3.309", dificulty_of_skill: "C", name_of_skill: "後ろ振り～1/2ひねり転向とび越し(屈伸、開脚)～高棒懸垂", sample_link: "" },
         { number_of_skill: "3.310", dificulty_of_skill: "C", name_of_skill: "大逆手(逆手背面)前方車輪(屈伸、伸身)、または1/2ひねり", sample_link: "" },
         { number_of_skill: "3.401", dificulty_of_skill: "D", name_of_skill: "後方車輪(１1/2または２回ひねり)、またはとび１回ひねり", sample_link: "" },
-        { number_of_skill: "3.402", dificulty_of_skill: "D", name_of_skill: "高棒懸垂～前振り出し1/2ひねり低棒とび越し～低棒倒立", sample_link: "" },
-        { number_of_skill: "3.403", dificulty_of_skill: "D", name_of_skill: "前振り出し～背面とび越し(開脚)～高棒懸垂[トゥカチェフ]・前振り出し～1/2ひねり～屈身とび越し～高棒懸垂", sample_link: "" },
-        { number_of_skill: "3.404", dificulty_of_skill: "D", name_of_skill: "高棒内向き、高棒懸垂～前振り出し～後方伸身宙返り～下移動低棒浮支持[パク宙返り]", sample_link: "" },
+        { number_of_skill: "3.402", dificulty_of_skill: "D", name_of_skill: "高棒懸垂～前振り出し1/2ひねり低棒とび越し～低棒倒立", sample_link: "https://youtu.be/12z5LW9F1Zk" },
+        { number_of_skill: "3.403", dificulty_of_skill: "D", name_of_skill: "前振り出し～背面とび越し(開脚)～高棒懸垂[トゥカチェフ]・前振り出し～1/2ひねり～屈身とび越し～高棒懸垂", sample_link: "https://youtu.be/CHX2rWobvKI" },
+        { number_of_skill: "3.404", dificulty_of_skill: "D", name_of_skill: "高棒内向き、高棒懸垂～前振り出し～後方伸身宙返り～下移動低棒浮支持[パク宙返り]", sample_link: "https://youtu.be/z7OGj3J9uV8" },
         { number_of_skill: "3.405", dificulty_of_skill: "D", name_of_skill: "前振り出し～1/2ひねり前方開脚宙返り～高棒懸垂[デルチェフ宙返り]、または前振り出し～後方宙返り(屈身、伸身)1/2ひねり[ギンガー宙返り]～高棒懸垂", sample_link: "" },
         { number_of_skill: "3.407", dificulty_of_skill: "D", name_of_skill: "後ろ振り～棒間でとび1/2ひねり下移動低棒懸垂", sample_link: "" },
-        { number_of_skill: "3.408", dificulty_of_skill: "D", name_of_skill: "イェーガー宙返り(開脚、屈身)～高棒懸垂", sample_link: "" },
+        { number_of_skill: "3.408", dificulty_of_skill: "D", name_of_skill: "イェーガー宙返り(開脚、屈身)～高棒懸垂", sample_link: "https://youtu.be/z7OGj3J9uV8" },
         { number_of_skill: "3.409", dificulty_of_skill: "D", name_of_skill: "後ろ振り～1/2ひねり開脚背面とび越し～高棒懸垂", sample_link: "" },
         { number_of_skill: "3.410", dificulty_of_skill: "D", name_of_skill: "大逆手前方車輪１回ひねり", sample_link: "" },
         { number_of_skill: "3.502", dificulty_of_skill: "E", name_of_skill: "高棒懸垂～前振り出し１1/2ひねり低棒とび越し～低棒懸垂", sample_link: "" },
         { number_of_skill: "3.503", dificulty_of_skill: "E", name_of_skill: "伸身トゥカチェフ・トゥカチェフ1/2ひねり・前振り出し～1/2ひねり～1/2ひねり背面とび越し(開脚)～高棒懸垂", sample_link: "" },
         { number_of_skill: "3.504", dificulty_of_skill: "E", name_of_skill: "パク宙返り１回ひねり", sample_link: "" },
         { number_of_skill: "3.506", dificulty_of_skill: "E", name_of_skill: "前方車輪片手上で１回ひねり(倒立前にひねりを開始)、または前方車輪１1/2ひねり", sample_link: "" },
-        { number_of_skill: "3.508", dificulty_of_skill: "E", name_of_skill: "イェーガー宙返り(伸身)～高棒懸垂・イェーガー宙返り(開脚)1/2ひねり～高棒懸垂", sample_link: "" },
+        { number_of_skill: "3.508", dificulty_of_skill: "E", name_of_skill: "イェーガー宙返り(伸身)～高棒懸垂・イェーガー宙返り(開脚)1/2ひねり～高棒懸垂", sample_link: "https://youtu.be/CHX2rWobvKI" },
         { number_of_skill: "3.510", dificulty_of_skill: "E", name_of_skill: "大逆手前方車輪、大逆手の片手上で１回ひねり(倒立前にひねりを開始する)、または大逆手前方車輪１1/2ひねり(どの技術も認める)", sample_link: "" },
         { number_of_skill: "3.604", dificulty_of_skill: "F", name_of_skill: "高棒外向き～前振り出し～前方開脚宙返り～逆手懸垂", sample_link: "" },
         { number_of_skill: "3.705", dificulty_of_skill: "G", name_of_skill: "前振り出し～後方伸身宙返り１1/2ひねり～高棒懸垂", sample_link: "" },
@@ -1190,13 +1188,13 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "4.301", dificulty_of_skill: "C", name_of_skill: "前方シュタルダー、または1/2ひねり", sample_link: "" },
         { number_of_skill: "4.302", dificulty_of_skill: "C", name_of_skill: "低棒内向き～後方開脚浮腰回転前振り出し～切り返しを伴った上移動高棒懸垂", sample_link: "" },
         { number_of_skill: "4.304", dificulty_of_skill: "C", name_of_skill: "シュタルダー(後方開脚浮腰回転倒立)、またはとび逆手持ち換え、または1/2ひねり", sample_link: "" },
-        { number_of_skill: "4.305", dificulty_of_skill: "C", name_of_skill: "低棒内向き～後方開脚浮腰回転前とび出し～上移動高棒懸垂", sample_link: "" },
+        { number_of_skill: "4.305", dificulty_of_skill: "C", name_of_skill: "低棒内向き～後方開脚浮腰回転前とび出し～上移動高棒懸垂", sample_link: "https://youtu.be/12z5LW9F1Zk" },
         { number_of_skill: "4.308", dificulty_of_skill: "C", name_of_skill: "後方閉脚浮腰回転前とび出し～上移動高棒懸垂", sample_link: "" },
         { number_of_skill: "4.309", dificulty_of_skill: "C", name_of_skill: "後方閉脚浮腰回転前振り出し～切り返しを伴った上移動高棒懸垂", sample_link: "" },
         { number_of_skill: "4.401", dificulty_of_skill: "D", name_of_skill: "前方シュタルダー１回ひねり", sample_link: "" },
         { number_of_skill: "4.402", dificulty_of_skill: "D", name_of_skill: "高棒、後方開脚浮腰回転～前とび出し～下移動低棒倒立", sample_link: "" },
         { number_of_skill: "4.403", dificulty_of_skill: "D", name_of_skill: "大逆手前方シュタルダー、または1/2ひねり", sample_link: "" },
-        { number_of_skill: "4.404", dificulty_of_skill: "D", name_of_skill: "シュタルダー１回ひねり", sample_link: "" },
+        { number_of_skill: "4.404", dificulty_of_skill: "D", name_of_skill: "シュタルダー１回ひねり", sample_link: "https://youtu.be/CHX2rWobvKI" },
         { number_of_skill: "4.405", dificulty_of_skill: "D", name_of_skill: "低棒外向き～シュタルダー背面とび出し～上移動高棒懸垂", sample_link: "" },
         { number_of_skill: "4.406", dificulty_of_skill: "D", name_of_skill: "前方閉脚浮腰回転倒立、または1/2ひねり[閉脚エンドー]", sample_link: "" },
         { number_of_skill: "4.407", dificulty_of_skill: "D", name_of_skill: "後方閉脚浮腰回転倒立、または1/2ひねり", sample_link: "" },
@@ -1239,7 +1237,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "5.508", dificulty_of_skill: "E", name_of_skill: "後方屈身足裏支持回転倒立１1/2ひねり", sample_link: "" },
         { number_of_skill: "5.509", dificulty_of_skill: "E", name_of_skill: "低棒外向き～後方屈身足裏支持回転倒立～背面とび出し1/2ひねり上移動高棒懸垂、または１回ひねり上移動高棒懸垂、または高棒後方屈身足裏支持回転～屈身背面とび越し～高棒懸垂", sample_link: "" },
         { number_of_skill: "5.607", dificulty_of_skill: "F", name_of_skill: "高棒外向き～棒下振り出し(足裏支持)～前方開脚宙返り～高棒懸垂", sample_link: "" },
-        { number_of_skill: "5.609", dificulty_of_skill: "", name_of_skill: "高棒後方屈身足裏支持回転～開脚背面とび越し1/2ひねり～片大逆手高棒懸垂", sample_link: "" },
+        { number_of_skill: "5.609", dificulty_of_skill: "F", name_of_skill: "高棒後方屈身足裏支持回転～開脚背面とび越し1/2ひねり～片大逆手高棒懸垂", sample_link: "" },
         { number_of_skill: "5.709", dificulty_of_skill: "G", name_of_skill: "高棒後方屈身足裏支持回転～伸身背面とび越し～高棒懸垂", sample_link: "" }
     ];
 
@@ -1247,7 +1245,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "6.101", dificulty_of_skill: "A", name_of_skill: "高棒～棒下振り出し1/2ひねり下り、または１回ひねり下り", sample_link: "" },
         { number_of_skill: "6.102", dificulty_of_skill: "A", name_of_skill: "高棒～浮支持回転前振り出し1/2ひねり下り、または１回ひねり下り", sample_link: "" },
         { number_of_skill: "6.104", dificulty_of_skill: "A", name_of_skill: "前振り～後方宙返り(かかえ込み、屈身、伸身)下り", sample_link: "" },
-        { number_of_skill: "6.108", dificulty_of_skill: "", name_of_skill: "後ろ振り～前方宙返り(かかえ込み、屈身、伸身)下り、または高棒で前方開脚浮腰回転～後ろ振り～前方かかえ込み宙返り宙返り下り", sample_link: "" },
+        { number_of_skill: "6.108", dificulty_of_skill: "A", name_of_skill: "後ろ振り～前方宙返り(かかえ込み、屈身、伸身)下り、または高棒で前方開脚浮腰回転～後ろ振り～前方かかえ込み宙返り宙返り下り", sample_link: "" },
         { number_of_skill: "6.201", dificulty_of_skill: "B", name_of_skill: "高棒～高棒振り出し～前方宙返り(かかえ込み、屈身)下り", sample_link: "" },
         { number_of_skill: "6.204", dificulty_of_skill: "B", name_of_skill: "前振り～後方宙返り(かかえ込み、伸身)1/2ひねり、または１回ひねり下り", sample_link: "" },
         { number_of_skill: "6.205", dificulty_of_skill: "B", name_of_skill: "前振り～後方かかえ込み２回宙返り下り", sample_link: "" },
@@ -1266,7 +1264,7 @@ app.controller("ApplicationController", ['$scope', function(
         { number_of_skill: "6.402", dificulty_of_skill: "D", name_of_skill: "高棒～浮支持回転前振り出し～前方かかえ込み宙返り１回ひねり下り・後方閉脚浮腰回転前振り出し～前方伸身宙返り1/2ひねり下り", sample_link: "" },
         { number_of_skill: "6.403", dificulty_of_skill: "D", name_of_skill: "高棒～棒下振り出し1/2ひねり～後方伸身宙返り下り・高棒～浮支持回転前振り出し1/2ひねり～後方伸身宙返り下り・高棒～棒下振り出し1/2ひねり～後方かかえ込み宙返り１回ひねり下り", sample_link: "" },
         { number_of_skill: "6.404", dificulty_of_skill: "D", name_of_skill: "前振り～後方伸身宙返り２1/2ひねり下り", sample_link: "" },
-        { number_of_skill: "6.405", dificulty_of_skill: "D", name_of_skill: "前振り～後方２回宙返り１回ひねり下り(かかえ込み、屈身)(１回目または２回目の宙返りでひねる)", sample_link: "" },
+        { number_of_skill: "6.405", dificulty_of_skill: "D", name_of_skill: "前振り～後方２回宙返り１回ひねり下り(かかえ込み、屈身)(１回目または２回目の宙返りでひねる)", sample_link: "https://youtu.be/CHX2rWobvKI" },
         { number_of_skill: "6.406", dificulty_of_skill: "D", name_of_skill: "前振り～後方伸身２回宙返り下り", sample_link: "" },
         { number_of_skill: "6.407", dificulty_of_skill: "D", name_of_skill: "前振り～後方かかえ込み宙返り1/2ひねり～前方かかえ込み宙返り下り・前振り1/2ひねり～前方かかえ込み２回宙返り下り", sample_link: "" },
         { number_of_skill: "6.408", dificulty_of_skill: "D", name_of_skill: "後ろ振り～前方かかえ込み２回宙返り下り・後ろ振り～前方かかえ込み２回宙返り1/2ひねり下り、または前方かかえ込み宙返り1/2ひねり～後方かかえ込み宙返り下り", sample_link: "" },
