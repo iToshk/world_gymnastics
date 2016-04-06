@@ -1,6 +1,6 @@
 = render partial: "shared/navbar_header"
 
-#sidebar-menu.content.col-md-2
+#sidebar-menu.content.col-md-1
   ul.sidebar-menu.nav.nav-stacked.affix
     p ng-bind="pommel_horse"
     li
@@ -133,3 +133,5 @@
               td width="16%"
                 a ng-href="{{pommel_horse_group_5_skill.sample_link}}" style="cursor: pointer" ng-hide="pommel_horse_group_5_skill.sample_link === ''"
                   | 1
+
+#right-sidebar-menu.content.col-md-2

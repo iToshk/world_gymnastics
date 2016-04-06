@@ -1,6 +1,6 @@
 = render partial: "shared/navbar_header"
 
-#sidebar-menu.content.col-md-2
+#sidebar-menu.content.col-md-1
   ul.sidebar-menu.nav.nav-stacked.affix
     p ng-bind="womens_vault"
     li
@@ -20,7 +20,7 @@
         | グループ4
 
 
-.content.col-md-10
+.content.col-md-9
   h2 ng-bind="code_of_points_2013_to_2016"
   p
   /fa.fa.fa-spinner.fa-pulse
@@ -41,7 +41,7 @@
         tbody
           .row.container.col-md-12
             tr ng-repeat="womens_vault_group_1_skill in womens_vault_group_1_skills"
-              td width="5%" ng-bind="'I-' + womens_vault_group_1_skill.number_of_skill"
+              td width="5%" ng-bind="womens_vault_group_1_skill.number_of_skill"
               td width="4%" ng-bind="womens_vault_group_1_skill.dificulty_of_skill"
               td width="75%" ng-bind="womens_vault_group_1_skill.name_of_skill"
               td width="16%"
@@ -62,7 +62,7 @@
         tbody
           .row.content.col-md-12
             tr ng-repeat="womens_vault_group_2_skill in womens_vault_group_2_skills"
-              td width="5%" ng-bind="'II-' + womens_vault_group_2_skill.number_of_skill"
+              td width="5%" ng-bind="womens_vault_group_2_skill.number_of_skill"
               td width="4%" ng-bind="womens_vault_group_2_skill.dificulty_of_skill"
               td width="75%" ng-bind="womens_vault_group_2_skill.name_of_skill"
               td width="16%"
@@ -83,7 +83,7 @@
         tbody
           .row.content.col-md-12
             tr ng-repeat="womens_vault_group_3_skill in womens_vault_group_3_skills"
-              td width="5%" ng-bind="'III-' + womens_vault_group_3_skill.number_of_skill"
+              td width="5%" ng-bind="womens_vault_group_3_skill.number_of_skill"
               td width="4%" ng-bind="womens_vault_group_3_skill.dificulty_of_skill"
               td width="75%" ng-bind="womens_vault_group_3_skill.name_of_skill"
               td width="16%"
@@ -104,10 +104,11 @@
         tbody
           .row.content.col-md-12
             tr ng-repeat="womens_vault_group_4_skill in womens_vault_group_4_skills"
-              td width="5%" ng-bind="'IV-' + womens_vault_group_4_skill.number_of_skill"
+              td width="5%" ng-bind="womens_vault_group_4_skill.number_of_skill"
               td width="4%" ng-bind="womens_vault_group_4_skill.dificulty_of_skill"
               td width="75%" ng-bind="womens_vault_group_4_skill.name_of_skill"
               td width="16%"
                 a ng-href="{{womens_vault_group_4_skill.sample_link}}" style="cursor: pointer" ng-hide="womens_vault_group_4_skill.sample_link === ''"
                   | 1
 
+#right-sidebar-menu.content.col-md-2

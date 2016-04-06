@@ -1,6 +1,6 @@
 = render partial: "shared/navbar_header"
 
-#sidebar-menu.content.col-md-2
+#sidebar-menu.content.col-md-1
   ul.sidebar-menu.nav.nav-stacked.affix
     p ng-bind="parallel_bars"
     li
@@ -23,7 +23,7 @@
         | グループV
 
 
-.content.col-md-10
+.content.col-md-9
   h2 ng-bind="code_of_points_2013_to_2016"
   p
   /fa.fa.fa-spinner.fa-pulse
@@ -134,3 +134,6 @@
               td width="16%"
                 a ng-href="{{parallel_bars_group_5_skill.sample_link}}" style="cursor: pointer" ng-hide="parallel_bars_group_5_skill.sample_link === ''"
                   | 1
+
+#right-sidebar-menu.content.col-md-2
+
