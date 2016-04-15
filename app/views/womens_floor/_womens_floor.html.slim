@@ -1,29 +1,6 @@
 = render partial: "shared/navbar_header"
 
-#sidebar-menu.content.col-md-1
-  ul.sidebar-menu.nav.nav-stacked.affix
-    p ng-bind="wowomens_floor"
-    li
-      a ng-click="scrollSmoothTo('contents_top')" style="cursor: pointer"
-        | Top
-    li
-      a ng-click="scrollSmoothTo('p1')" style="cursor: pointer"
-        | グループ1
-    li
-      a ng-click="scrollSmoothTo('p2')" style="cursor: pointer"
-        | グループ2
-    li
-      a ng-click="scrollSmoothTo('p3')" style="cursor: pointer"
-        | グループ3
-    li
-      a ng-click="scrollSmoothTo('p4')" style="cursor: pointer"
-        | グループ4
-    li
-      a ng-click="scrollSmoothTo('p5')" style="cursor: pointer"
-        | グループ5
-
-
-.content.col-md-9
+.content.col-md-10
   h2 ng-bind="code_of_points_2013_to_2016"
   p
   /fa.fa.fa-spinner.fa-pulse
@@ -133,5 +110,11 @@
               td width="16%"
                 a ng-href="{{womens_floor_group_5_skill.sample_link}}" style="cursor: pointer" ng-hide="womens_floor_group_5_skill.sample_link === ''"
                   | 1
+
+
+  .content
+    p
+      a ng-click="scrollSmoothTo('contents_top')" style="cursor: pointer"
+        | Topへ戻る
 
 #right-sidebar-menu.content.col-md-2
