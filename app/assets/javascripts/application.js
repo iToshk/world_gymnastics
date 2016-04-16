@@ -33,6 +33,8 @@ var app = angular.module("app", [
 app.controller("ApplicationController", ['$scope', function(
     $scope)
 {
+    $scope.share_the_moment = "Share the moment"
+
     $scope.code_of_points_2013_to_2016 = "器械体操 難度表 （2013年度-2016年度版）"
     $scope.number_of_skill = "技番号"
     $scope.dificulty_of_skill = "難度"

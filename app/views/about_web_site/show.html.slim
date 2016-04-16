@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title World Gymnastics
+    = csrf_meta_tags
+    = stylesheet_link_tag "application", media: "all"
+    = javascript_include_tag "application", controller_name: "application.js"
+    link href="favicon.ico?v=test" rel="shortcut icon"
+  body ng-app="app" ng-controller="ApplicationController"
+
+    #contents_top
+      = render partial: "about_web_site"
+
+
+

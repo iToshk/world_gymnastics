@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'home#show'
-  match "home" => "home#show", via: :get
+  match "home" => "home#show", via: :getmatch
+  match "about_web_site" => "about_web_site#show", via: :get
   match "mens_floor" => "mens_floor#show", via: :get
   match "pommel_horse" => "pommel_horse#show", via: :get
   match "rings" => "rings#show", via: :get
