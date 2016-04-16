@@ -23,7 +23,11 @@ html
             | 訪問者数：
             = render partial: "access_counter"
 
-          = render partial: "twitter"
+          | サイト製作者：
+          = render partial: "twitter_love_gymnastics"
+          br
+          | サイト製作状況：
+          = render partial: "twitter_world_gymnastics"
           /= link_to "Men's Floor", '/mens_floor'
         .middle.col-xs-8
 
