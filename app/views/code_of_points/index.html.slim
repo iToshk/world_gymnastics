@@ -1,0 +1,47 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title World Gymnastics
+    = csrf_meta_tags
+    = stylesheet_link_tag "application", media: "all"
+    = javascript_include_tag "application", controller_name: "application.js"
+    link href="favicon.ico?v=test" rel="shortcut icon"
+  body ng-app="app" ng-controller="ApplicationController"
+
+    = render partial: "shared/navbar_header"
+
+    .content.col-md-10
+      h2 ng-bind="code_of_points"
+      p ng-bind="year_2013_to_2016"
+      br
+      /fa.fa.fa-spinner.fa-pulse
+      h3 ng-bind="mens"
+      ul
+        li
+          a href="/code_of_points/mens_floor" ng-bind="floor"
+        li
+          a href="/code_of_points/pommel_horse" ng-bind="pommel_horse"
+        li
+          a href="/code_of_points/rings" ng-bind="rings"
+        li
+          a href="/code_of_points/mens_vault" ng-bind="vault"
+        li
+          a href="/code_of_points/parallel_bars" ng-bind="parallel_bars"
+        li
+          a href="/code_of_points/horizontal_bar" ng-bind="horizontal_bar"
+
+      h3 ng-bind="womens"
+      ul
+        li
+          a href="/code_of_points/womens_vault" ng-bind="vault"
+        li
+          a href="/code_of_points/uneven_bars" ng-bind="uneven_bars"
+        li
+          a href="/code_of_points/balance_beam" ng-bind="balance_beam"
+        li
+          a href="/code_of_points/womens_floor" ng-bind="womens_floor"
+
+    #right-sidebar-menu.content.col-md-2
+      = render partial: "shared/adsense_side"
+

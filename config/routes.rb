@@ -3,19 +3,23 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#show'
-  match "home" => "home#show", via: :getmatch
-  match "about_web_site" => "about_web_site#show", via: :get
-  match "mens_floor" => "mens_floor#show", via: :get
-  match "pommel_horse" => "pommel_horse#show", via: :get
-  match "rings" => "rings#show", via: :get
-  match "mens_vault" => "mens_vault#show", via: :get
-  match "parallel_bars" => "parallel_bars#show", via: :get
-  match "horizontal_bar" => "horizontal_bar#show", via: :get
-  match "womens_vault" => "womens_vault#show", via: :get
-  match "uneven_bars" => "uneven_bars#show", via: :get
-  match "balance_beam" => "balance_beam#show", via: :get
-  match "womens_floor" => "womens_floor#show", via: :get
+  root 'home#index'
+  match "home" => "home#index", via: :getmatch
+  match "about_web_site" => "about_web_site#index", via: :get
+  match "code_of_points" => "code_of_points#index", via: :get
+
+  namespace :code_of_points do
+    get 'mens_floor', to: "mens_floor#show"
+    get 'pommel_horse', to: "pommel_horse#show"
+    get 'rings', to: "rings#show"
+    get 'mens_vault', to: "mens_vault#show"
+    get 'parallel_bars', to: "parallel_bars#show"
+    get 'horizontal_bar', to: "horizontal_bar#show"
+    get 'womens_vault', to: "womens_vault#show"
+    get 'uneven_bars', to: "uneven_bars#show"
+    get 'balance_beam', to: "balance_beam#show"
+    get 'womens_floor', to: "womens_floor#show"
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

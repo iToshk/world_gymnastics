@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title World Gymnastics
+    = csrf_meta_tags
+    = stylesheet_link_tag "application", media: "all"
+    = javascript_include_tag "application", controller_name: "application.js"
+    link href="favicon.ico?v=test" rel="shortcut icon"
+    = render partial: "google_analytics" if Rails.env.production?
+
+  body ng-app="app" ng-controller="ApplicationController"
+    = render partial: "shared/navbar_header"
+    .cover
+      #home-menu.col-xs-2
+        h2
+          | World Gymnastics
+        h6
+          | Share the Knowledge of Gymnastics
+        br
+        br
+        .menu
+          h4
+            a href="/code_of_points" ng-bind="code_of_points"
+    .content
+      .col-xs-12
+        .left.col-xs-4
+          h4
+            | Site Info：
+          p
+            | 訪問者数：
+            = render partial: "access_counter"
+        .middle.col-xs-4
+          h4
+            | Update：
+          p
+            = render partial: "twitter_world_gymnastics"
+
+        .right.col-xs-4
+          h4
+            | Made by：
+          p
+            = render partial: "twitter_love_gymnastics"
+        br
+        br
+        .text-center.col-xs-12
+          p
+            = render partial: "adsense_top"
+        br

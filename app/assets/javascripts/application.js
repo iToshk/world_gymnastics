@@ -35,7 +35,13 @@ app.controller("ApplicationController", ['$scope', function(
 {
     $scope.share_the_moment = "Share the moment"
 
-    $scope.code_of_points_2013_to_2016 = "器械体操 難度表 （2013年度-2016年度版）"
+    $scope.code_of_points = "器械体操 難度表"
+    $scope.year_2013_to_2016 = "（2013年度-2016年度版）"
+    $scope.mens= "男子"
+    $scope.womens= "女子"
+    $scope.floor = "床"
+    $scope.vault = "跳馬"
+
     $scope.number_of_skill = "技番号"
     $scope.dificulty_of_skill = "難度"
     $scope.name_of_skill = "技名"

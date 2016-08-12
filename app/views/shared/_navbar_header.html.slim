@@ -1,42 +1,41 @@
-#header
-  nav.navbar.navbar-inverse role="navigation"
-    .container-fluid
-      /! Brand and toggle get grouped for better mobile display
-      .navbar-header
-        button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
-          span.sr-only Toggle navigation
-          span.icon-bar
-          span.icon-bar
-          span.icon-bar
-        a.navbar-brand href="/" World Gymnastics
-      /! Collect the nav links, forms, and other content for toggling
-      #bs-example-navbar-collapse-1.collapse.navbar-collapse
-        ul.nav.navbar-nav
-          li
-            a href="/about_web_site"  About This Page
-          li.dropdown
-            a.dropdown-toggle data-toggle="dropdown" href="#"
-              | 器械体操 難度表
-              span.caret
-            ul.dropdown-menu role="menu"
-              li
-                a href="/mens_floor" ng-bind="mens_floor"
-              li
-                a href="/pommel_horse" ng-bind="pommel_horse"
-              li
-                a href="/rings" ng-bind="rings"
-              li
-                a href="/mens_vault" ng-bind="mens_vault"
-              li
-                a href="/parallel_bars" ng-bind="parallel_bars"
-              li
-                a href="/horizontal_bar" ng-bind="horizontal_bar"
-              li.divider
-              li
-                a href="/womens_vault" ng-bind="womens_vault"
-              li
-                a href="/uneven_bars" ng-bind="uneven_bars"
-              li
-                a href="/balance_beam" ng-bind="balance_beam"
-              li
-                a href="/womens_floor" ng-bind="womens_floor"
+nav.navbar.navbar-inverse role="navigation"
+  .container-fluid
+    /! Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="/" Home
+    /! Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li
+          a href="/about_web_site"  About This Page
+        li.dropdown
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            | 器械体操 難度表
+            span.caret
+          ul.dropdown-menu role="menu"
+            li
+              a href="/code_of_points/mens_floor" ng-bind="mens_floor"
+            li
+              a href="/code_of_points/pommel_horse" ng-bind="pommel_horse"
+            li
+              a href="/code_of_points/rings" ng-bind="rings"
+            li
+              a href="/code_of_points/mens_vault" ng-bind="mens_vault"
+            li
+              a href="/code_of_points/parallel_bars" ng-bind="parallel_bars"
+            li
+              a href="/code_of_points/horizontal_bar" ng-bind="horizontal_bar"
+            li.divider
+            li
+              a href="/code_of_points/womens_vault" ng-bind="womens_vault"
+            li
+              a href="/code_of_points/uneven_bars" ng-bind="uneven_bars"
+            li
+              a href="/code_of_points/balance_beam" ng-bind="balance_beam"
+            li
+              a href="/code_of_points/womens_floor" ng-bind="womens_floor"

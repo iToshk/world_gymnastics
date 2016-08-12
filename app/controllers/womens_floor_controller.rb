@@ -1,2 +1,0 @@
-class WomensFloorController < ApplicationController
-end
